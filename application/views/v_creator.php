@@ -77,14 +77,14 @@
             Template
         </a>
     </li>
-    <li>
-        <a href="#creator" data-toggle="tab" style="padding: 10px 25px;">
-                            <span class="block text-center">
-                                <i class="fa fa-tablet fa-2x"></i>
-                            </span>
-            Creator
-        </a>
-    </li>
+<!--    <li>-->
+<!--        <a href="#creator" data-toggle="tab" style="padding: 10px 25px;">-->
+<!--                            <span class="block text-center">-->
+<!--                                <i class="fa fa-tablet fa-2x"></i>-->
+<!--                            </span>-->
+<!--            Creator-->
+<!--        </a>-->
+<!--    </li>-->
 </ul>
 
 <div class="padding-md">
@@ -909,170 +909,8 @@
     </div><!-- /row -->
 </div><!-- /tab5 -->
 
-<div class="tab-pane fade" id="creator">
-    <div class="row">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                Add Creator elements
-            </div>
-            <div class="panel-body">
-                <div class="col-md-6">
-                    <fieldset class="form-horizontal form-border">
-                        <div class="form-group">
-                            <label class="control-label col-md-2">Name</label>
-                            <div class="col-md-10">
-                                <input type="text" class="form-control input-sm" placeholder="App name EX. CoffeeShop" value="">
-                            </div><!-- /.col -->
-                        </div><!-- /form-group -->
-                        <div class="form-group">
-                            <label class="col-lg-2 control-label">Category</label>
-                            <div class="col-lg-10">
-                                <select class="form-control chzn-select">
-                                    <option>Restaurant</option>
-                                    <option>Education</option>
-                                    <option>Ecommerce</option>
-                                </select>
-                            </div><!-- /.col -->
-                        </div><!-- /form-group -->
-                        <div class="form-group">
-                            <label class="control-label col-lg-2">Logo</label>
-                            <div class="col-lg-10">
-                                <form action="." class="dropzone">
-                                    <div class="fallback">
-                                        <input name="file" type="file" multiple />
-                                    </div>
-                                </form>
-                            </div><!-- /.col -->
-                        </div><!-- /form-group -->
-                    </fieldset>
-                </div><!-- /.col -->
-                <div class="col-md-6">
-                    <fieldset class="form-horizontal form-border">
-                        <div class="form-group">
-                            <label class="control-label col-lg-2">Background</label>
-                            <div class="col-lg-10">
-                                <div class="upload-file">
-                                    <input type="file" id="upload-demo" class="upload-demo">
-                                    <label data-title="Select file" for="upload-demo">
-                                        <span data-title="Single File Selection..."></span>
-                                    </label>
-                                </div>
-                            </div><!-- /.col -->
-                        </div><!-- /form-group -->
-                        <div class="form-group">
-                            <label class="col-lg-2 control-label">Template</label>
-                            <div class="col-lg-10">
-                                <select class="form-control chzn-select">
-                                    <option>Coffee Shop</option>
-                                    <option>Fastfood</option>
-                                    <option>Sushi</option>
-                                </select>
-                            </div><!-- /.col -->
-                        </div><!-- /form-group -->
-                        <div class="form-group">
-                            <label class="control-label col-lg-2">Menu</label>
-                            <div class="col-lg-10">
-                                <form action="." class="dropzone">
-                                    <div class="fallback">
-                                        <input name="file" type="file" multiple />
-                                    </div>
-                                </form>
-                            </div><!-- /.col -->
-                        </div><!-- /form-group -->
-                    </fieldset>
-                </div><!-- /.col -->
-            </div><!-- /panel-body -->
-            <div class="panel-footer">
-                <div class="text-right">
-                    <button class="btn btn-sm btn-success">Update</button>
-                    <button class="btn btn-sm btn-success" type="reset">Reset</button>
-                </div>
-            </div>
-        </div><!-- /panel -->
-    </div><!-- /.row -->
-    <div class="row">
-        <div class="col-md-12">
-            <div class="panel panel-default table-responsive">
-                <div class="panel-heading">
-                    All Elements
-                    <span class="label label-danger pull-right">3 Items</span>
-                </div>
-                <table class="table table-striped" id="dataTable_elements">
-                    <thead>
-                    <tr>
-                        <th class="text-center">App Name</th>
-                        <th class="text-center">Category</th>
-                        <th class="text-center">Template</th>
-                        <th class="text-center">Background</th>
-                        <th class="text-center">Logo</th>
-                        <th class="text-center">Menu</th>
-                        <th class="text-center">Status</th>
-                        <th class="text-center" style="width: 200px">Actions</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td class="text-center">
-                            Burger House
-                        </td>
-                        <td class="text-center">
-                            Restuarant
-                        </td>
-                        <td class="text-center">
-                            Fastfood
-                        </td>
-                        <td class="text-center hidden-xs">
-                            <img alt="Product Image" src="background.jpg" height="100" width="100">
-                        </td>
-                        <td class="text-center">
-                            <a href="#logo" role="button" data-toggle="modal" class="btn btn-sm btn-info">Logo</a>
-                        </td>
-                        <td class="text-center">
-                            <a href="#menu" role="button" data-toggle="modal" class="btn btn-sm btn-info">Menu</a>
-                        </td>
-                        <td class="text-center">
-                            Published
-                        </td>
-                        <td class="text-center">
-                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
-                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
-                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="text-center">
-                            Ice Cream Parlour
-                        </td>
-                        <td class="text-center">
-                            Restuarant
-                        </td>
-                        <td class="text-center">
-                            Ice Cream Parlour
-                        </td>
-                        <td class="text-center hidden-xs">
-                            <img alt="Product Image" src="background1.jpg" height="100" width="100">
-                        </td>
-                        <td class="text-center">
-                            <a href="#logo" role="button" data-toggle="modal" class="btn btn-sm btn-info">Logo</a>
-                        </td>
-                        <td class="text-center">
-                            <a href="#menu" role="button" data-toggle="modal" class="btn btn-sm btn-info">Menu</a>
-                        </td>
-                        <td class="text-center">
-                            Published
-                        </td>
-                        <td class="text-center">
-                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
-                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
-                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div><!-- /panel -->
-        </div><!-- /col -->
-    </div><!-- /row -->
-</div><!-- /tab6 -->
+<!--<div class="tab-pane fade" id="creator">-->
+<!--</div><!-- /tab6 -->
 
 </div><!-- /tab-content -->
 </div><!-- /.row -->
