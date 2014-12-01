@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>App Creator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Pace -->
+        <link href="css/pace.css" rel="stylesheet">
+
+        <!-- Endless -->
+        <link href="css/endless.min.css" rel="stylesheet">
+        <link href="css/endless-skin.css" rel="stylesheet">
+
+    </head>
+
+    <body class="overflow-hidden">
+        <!-- Overlay Div -->
+        <div id="overlay" class="transparent"></div>
+
+        <a href="" id="theme-setting-icon"><i class="fa fa-cog fa-lg"></i></a>
+        <div id="theme-setting">
+            <div class="title">
+                <strong class="no-margin">Skin Color</strong>
+            </div>
+            <div class="theme-box">
+                <a class="theme-color" style="background:#323447" id="default"></a>
+                <a class="theme-color" style="background:#efefef" id="skin-1"></a>
+                <a class="theme-color" style="background:#a93922" id="skin-2"></a>
+                <a class="theme-color" style="background:#3e6b96" id="skin-3"></a>
+                <a class="theme-color" style="background:#635247" id="skin-4"></a>
+                <a class="theme-color" style="background:#3a3a3a" id="skin-5"></a>
+                <a class="theme-color" style="background:#495B6C" id="skin-6"></a>
+            </div>
+            <div class="title">
+                <strong class="no-margin">Sidebar Menu</strong>
+            </div>
+            <div class="theme-box">
+                <label class="label-checkbox">
+                    <input type="checkbox" checked id="fixedSidebar">
+                    <span class="custom-checkbox"></span>
+                    Fixed Sidebar
+                </label>
+            </div>
+        </div><!-- /theme-setting -->
+
+        <div id="wrapper" class="preload">
+            <div id="top-nav" class="skin-6 fixed">
+                <div class="brand">
+                    <span>App</span>
+                    <span class="text-toggle"> Creator</span>
+                </div><!-- /brand -->
+                <button type="button" class="navbar-toggle pull-left" id="sidebarToggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul class="nav-notification clearfix">
+                    <li style="background-color: #9ad268;">
+                        <a href="create_new.html"  style="color: #fff; font-weight: bolder;">
+                            <strong>CREATE</strong>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-envelope fa-lg"></i>
+                            <span class="notification-label bounceIn animation-delay4">7</span>
+                        </a>
+                        <ul class="dropdown-menu message dropdown-1">
+                            <li><a>You have 4 new unread messages</a></li>					  
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>John Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-check text-success"></i> 27m ago</small>
+                                    </div>
+                                </a>	
+                            </li>
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user2.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>Jane Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-check text-success"></i> 5hr ago</small>
+                                    </div>
+                                </a>	
+                            </li>
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>Bill Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-reply"></i> Yesterday</small>
+                                    </div>
+                                </a>	
+                            </li>
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user2.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>Baby Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-reply"></i> 9 Feb 2013</small>
+                                    </div>
+                                </a>	
+                            </li>
+                            <li><a href="inbox.html">View all messages</a></li>					  
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-bell fa-lg"></i>
+                            <span class="notification-label bounceIn animation-delay6">5</span>
+                        </a>
+                        <ul class="dropdown-menu notification dropdown-3">
+                            <li><a href="#">You have 5 new notifications</a></li>					  
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-warning">
+                                        <i class="fa fa-warning"></i>
+                                    </span>
+                                    <span class="m-left-xs">Server #2 not responding.</span>
+                                    <span class="time text-muted">Just now</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-success">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                    <span class="m-left-xs">New user registration.</span>
+                                    <span class="time text-muted">2m ago</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-danger">
+                                        <i class="fa fa-bolt"></i>
+                                    </span>
+                                    <span class="m-left-xs">Application error.</span>
+                                    <span class="time text-muted">5m ago</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-success">
+                                        <i class="fa fa-usd"></i>
+                                    </span>
+                                    <span class="m-left-xs">2 items sold.</span>
+                                    <span class="time text-muted">1hr ago</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-success">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                    <span class="m-left-xs">New user registration.</span>
+                                    <span class="time text-muted">1hr ago</span>
+                                </a>
+                            </li>
+                            <li><a href="#">View all notifications</a></li>					  
+                        </ul>
+                    </li>
+                    <li class="profile dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <strong>John Doe</strong>
+                            <span><i class="fa fa-chevron-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>John Doe</strong>
+                                        <p class="grey">John_Doe@email.com</p> 
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a tabindex="-1" href="profile.html" class="main-link"><i class="fa fa-edit fa-lg"></i> Edit profile</a></li>
+                            <li><a tabindex="-1" href="#" class="theme-setting"><i class="fa fa-cog fa-lg"></i> Setting</a></li>
+                            <li class="divider"></li>
+                            <li><a tabindex="-1" class="main-link logoutConfirm_open" href="#logoutConfirm"><i class="fa fa-lock fa-lg"></i> Log out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /top-nav-->
+
+            <aside class="fixed skin-6">
+                <div class="sidebar-inner scrollable-sidebar">
+                    <div class="size-toggle">
+                        <a class="btn btn-sm" id="sizeToggle">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <a class="btn btn-sm pull-right logoutConfirm_open"  href="#logoutConfirm">
+                            <i class="fa fa-power-off"></i>
+                        </a>
+                    </div><!-- /size-toggle -->	
+                    <div class="user-block clearfix">
+                        <img src="img/user1.jpg" alt="User Avatar">
+                        <div class="detail">
+                            <strong>John Doe</strong>
+                            <ul class="list-inline">
+                                <li><a href="profile.html">Profile</a></li>
+                                <li><a href="#" class="no-margin">Settings</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- /user-block -->
+                    <div class="main-menu">
+                        <ul>
+                            <li>
+                                <a href="dashboard.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-desktop fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Dashboard
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="creator.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-tasks fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Creator
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="timeline.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-clock-o fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Timeline
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-picture-o fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Gallery
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="inbox.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-envelope fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Inbox
+                                    </span>
+                                    <span class="badge badge-danger bounceIn animation-delay6">4</span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="blog.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-edit fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Blog
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="invoice.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-book fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Invoice
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /main-menu -->
+                </div><!-- /sidebar-inner scrollable-sidebar -->
+            </aside>
+
+            <div id="main-container">
+                <div id="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li><i class="fa fa-home"></i><a href="index.html"> Home</a></li>	 
+                        <li class="active">Profile</li>	 
+                    </ul>
+                </div><!--breadcrumb-->
+                <ul class="tab-bar grey-tab">
+                    <li class="active">
+                        <a href="#overview" data-toggle="tab">
+                            <span class="block text-center">
+                                <i class="fa fa-home fa-2x"></i> 
+                            </span>
+                            Overview
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#edit" data-toggle="tab">
+                            <span class="block text-center">
+                                <i class="fa fa-edit fa-2x"></i> 
+                            </span>
+                            Edit Profile
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="padding-md">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-12 col-md-6 text-center">
+                                    <a href="#">
+                                        <img src="img/user1.jpg" alt="User Avatar" class="img-thumbnail">
+                                    </a>
+                                    <div class="seperator"></div>
+                                    <div class="seperator"></div>
+                                </div><!-- /.col -->
+                                <div class="col-xs-6 col-sm-12 col-md-6">
+                                    <strong class="font-14">John Doe</strong>
+                                    <small class="block text-muted">
+                                        John_Doe@email.com
+                                    </small> 
+                                    <small class="block text-muted">
+                                        +8801911000000
+                                    </small>
+                                    <small class="block text-muted">
+                                        Bangladesh
+                                    </small>
+                                    <div class="seperator"></div>
+                                    <div class="seperator"></div>
+                                    <div class="seperator"></div>
+                                </div><!-- /.col -->
+                            </div><!-- /.row -->
+                            <div class="panel">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="panel-heading">
+                                            About Me
+                                        </div>
+                                        <div class="panel-body">
+                                            <p>I am a mobile apps developer. My passion is to make mobile apps. </p>
+                                        </div>
+                                    </div><!-- /.row -->
+                                </div>
+                            </div><!-- /panel -->
+                        </div><!-- /.col -->
+                        <div class="col-md-9 col-sm-9">
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="overview">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="panel panel-overview fadeInUp animation-delay1">
+                                                <div class="overview-icon bg-warning">
+                                                    <i class="fa fa-qrcode"></i>
+                                                </div>
+                                                <div class="overview-value">
+                                                    <div class="h2">1</div>
+                                                    <div class="text-muted">Apps</div>
+                                                </div>
+                                            </div><!--/ panel -->
+                                        </div><!-- /.col -->
+                                        <div class="col-md-4">
+                                            <div class="panel panel-overview fadeInUp animation-delay2">
+                                                <div class="overview-icon bg-success">
+                                                    <i class="fa fa-shopping-cart"></i>
+                                                </div>
+                                                <div class="overview-value">
+                                                    <div class="h2">0</div>
+                                                    <div class="text-muted">Sales</div>
+                                                </div>
+                                            </div><!--/ panel -->
+                                        </div><!-- /.col -->
+                                        <div class="col-md-4">
+                                            <div class="panel panel-overview fadeInUp animation-delay3">
+                                                <div class="overview-icon bg-danger">
+                                                    <i class="fa fa-usd"></i>
+                                                </div>
+                                                <div class="overview-value">
+                                                    <div class="h2">$0</div>
+                                                    <div class="text-muted">Incomes</div>
+                                                </div>
+                                            </div><!--/ panel -->
+                                        </div><!-- /.col -->
+                                    </div><!-- /.row -->
+                                    <div class="panel panel-default table-responsive">
+                                        <div class="panel-heading">
+                                            Apps
+                                            <span class="label label-danger pull-right">3 Items</span>
+                                        </div>
+                                        <table class="table table-bordered table-condensed table-hover table-striped table-vertical-center">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th class="text-center">Name</th>
+                                                    <th class="text-center">Price</th>
+                                                    <th class="text-center">Total Sales</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-center hidden-xs">
+                                                        <img alt="Product Image" src="img/1.png" width="80" height="120">
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Coffee Shop
+                                                    </td>
+                                                    <td class="text-center">
+                                                        $5
+                                                    </td>
+                                                    <td class="text-center">
+                                                        10
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="btn btn-sm btn-success">View</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div><!-- /panel -->
+                                </div><!-- /tab1 -->
+                                
+                                <div class="tab-pane fade" id="edit">
+                                    <div class="row">
+                                        <div class="panel panel-info pull-right">
+                                            <div class="panel-body">
+                                                Last Update on 12 Oct,2013
+                                            </div>
+                                        </div><!-- /panel -->
+                                    </div><!-- /.row -->
+                                    <div class="panel panel-default">
+                                        <form class="form-horizontal form-border">
+                                            <div class="panel-heading">
+                                                Basic Information
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-2">Name</label>												
+                                                    <div class="col-md-10">
+                                                        <input type="text" class="form-control input-sm" placeholder="name" value="John Doe">
+                                                    </div><!-- /.col -->
+                                                </div><!-- /form-group -->
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-2">Password</label>
+                                                    <div class="col-md-10">
+                                                        <input type="password" class="form-control input-sm" value="Password">
+                                                    </div><!-- /.col -->
+                                                </div><!-- /form-group -->
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-2">Email</label>
+                                                    <div class="col-md-10">
+                                                        <input type="text" class="form-control input-sm" value="john_doe@email.com">
+                                                    </div><!-- /.col -->
+                                                </div><!-- /form-group -->
+                                                <div class="form-group">
+                                                    <label class="control-label col-lg-2">Image</label>
+                                                    <div class="col-lg-10">
+                                                        <div class="upload-file">
+                                                            <input type="file" id="upload-demo" class="upload-demo">
+                                                            <label data-title="Select file" for="upload-demo">
+                                                                <span data-title="No file selected..."></span>
+                                                            </label>
+                                                        </div>
+                                                    </div><!-- /.col -->
+                                                </div><!-- /form-group -->
+                                                <div class="form-group">
+                                                    <label class="col-lg-2 control-label">Country</label>
+                                                    <div class="col-lg-10">
+                                                        <select class="form-control chzn-select">
+                                                            <option>Alabama</option>
+                                                            <option>Alaska</option>
+                                                            <option>Arizona</option>
+                                                            <option>Arkansas</option>
+                                                            <option>California</option>
+                                                            <option>Colorado</option>
+                                                            <option>Connecticut</option>
+                                                            <option>Delaware</option>
+                                                            <option>District Of Columbia</option>
+                                                            <option>Florida</option>
+                                                            <option>Georgia</option>
+                                                            <option>Hawaii</option>
+                                                            <option>Idaho</option>
+                                                            <option>Illinois</option>
+                                                            <option>Indiana</option>
+                                                            <option>Iowa</option>
+                                                            <option>Kansas</option>
+                                                            <option>Kentucky</option>
+                                                            <option>Louisiana</option>
+                                                            <option>Maine</option>
+                                                            <option>Maryland</option>
+                                                            <option>Massachusetts</option>
+                                                            <option>Michigan</option>
+                                                            <option>Minnesota</option>
+                                                            <option>Mississippi</option>
+                                                            <option>Missouri</option>
+                                                            <option>Montana</option>
+                                                            <option>Nebraska</option>
+                                                            <option>Nevada</option>
+                                                            <option>New Hampshire</option>
+                                                            <option>New Jersey</option>
+                                                            <option>New Mexico</option>
+                                                            <option>New York</option>
+                                                            <option>North Carolina</option>
+                                                            <option>North Dakota</option>
+                                                            <option>Ohio</option>
+                                                            <option>Oklahoma</option>
+                                                            <option>Oregon</option>
+                                                            <option>Pennsylvania</option>
+                                                            <option>Rhode Island</option>
+                                                            <option>South Carolina</option>
+                                                            <option>South Dakota</option>
+                                                            <option>Tennessee</option>
+                                                            <option>Texas</option>
+                                                            <option>Utah</option>
+                                                            <option>Vermont</option>
+                                                            <option>Virginia</option>
+                                                            <option>Washington</option>
+                                                            <option>West Virginia</option>
+                                                            <option>Wisconsin</option>
+                                                            <option>Wyoming</option>
+                                                        </select>
+                                                    </div><!-- /.col -->
+                                                </div><!-- /form-group -->
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-2">Phone</label>
+                                                    <div class="col-md-10">
+                                                        <input type="text" class="form-control input-sm">
+                                                    </div><!-- /.col -->
+                                                </div><!-- /form-group -->
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-2">About</label>
+                                                    <div class="col-md-10">
+                                                        <textarea class="form-control" rows="3"></textarea>
+                                                    </div><!-- /.col -->
+                                                </div><!-- /form-group -->
+                                            </div>
+                                            <div class="panel-footer">
+                                                <div class="text-right">
+                                                    <button class="btn btn-sm btn-success">Add</button>
+                                                    <button class="btn btn-sm btn-success" type="reset">Clear</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div><!-- /panel -->
+                                </div><!-- /tab2 -->
+                            </div><!-- /tab-content -->
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->			
+                </div><!-- /.padding-md -->
+            </div><!-- /main-container -->
+        </div><!-- /wrapper -->
+
+        <a href="" id="scroll-to-top" class="hidden-print"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- Logout confirmation -->
+        <div class="custom-popup width-100" id="logoutConfirm">
+            <div class="padding-md">
+                <h4 class="m-top-none"> Do you want to logout?</h4>
+            </div>
+
+            <div class="text-center">
+                <a class="btn btn-success m-right-sm" href="login.html">Logout</a>
+                <a class="btn btn-danger logoutConfirm_close">Cancel</a>
+            </div>
+        </div>
+
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+
+        <!-- Jquery -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- holder -->
+        <script src='js/uncompressed/holder.js'></script>
+
+        <!-- Modernizr -->
+        <script src='js/modernizr.min.js'></script>
+
+        <!-- Pace -->
+        <script src='js/pace.min.js'></script>
+
+        <!-- Popup Overlay -->
+        <script src='js/jquery.popupoverlay.min.js'></script>
+
+        <!-- Slimscroll -->
+        <script src='js/jquery.slimscroll.min.js'></script>
+
+        <!-- Cookie -->
+        <script src='js/jquery.cookie.min.js'></script>
+
+        <!-- Endless -->
+        <script src="js/endless/endless.js"></script>
+
+    </body>
+</html>

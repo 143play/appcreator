@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>App Creator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Pace -->
+        <link href="css/pace.css" rel="stylesheet">
+
+        <!-- Color box -->
+        <link href="css/colorbox/colorbox.css" rel="stylesheet">
+
+        <!-- Morris -->
+        <link href="css/morris.css" rel="stylesheet"/>	
+
+        <!-- Endless -->
+        <link href="css/endless.css" rel="stylesheet">
+        <link href="css/endless-skin.css" rel="stylesheet">
+
+    </head>
+
+    <body class="overflow-hidden">
+        <!-- Overlay Div -->
+        <div id="overlay" class="transparent"></div>
+
+        <a href="" id="theme-setting-icon"><i class="fa fa-cog fa-lg"></i></a>
+        <div id="theme-setting">
+            <div class="title">
+                <strong class="no-margin">Skin Color</strong>
+            </div>
+            <div class="theme-box">
+                <a class="theme-color" style="background:#323447" id="default"></a>
+                <a class="theme-color" style="background:#efefef" id="skin-1"></a>
+                <a class="theme-color" style="background:#a93922" id="skin-2"></a>
+                <a class="theme-color" style="background:#3e6b96" id="skin-3"></a>
+                <a class="theme-color" style="background:#635247" id="skin-4"></a>
+                <a class="theme-color" style="background:#3a3a3a" id="skin-5"></a>
+                <a class="theme-color" style="background:#495B6C" id="skin-6"></a>
+            </div>
+            <div class="title">
+                <strong class="no-margin">Sidebar Menu</strong>
+            </div>
+            <div class="theme-box">
+                <label class="label-checkbox">
+                    <input type="checkbox" checked id="fixedSidebar">
+                    <span class="custom-checkbox"></span>
+                    Fixed Sidebar
+                </label>
+            </div>
+        </div><!-- /theme-setting -->
+
+        <div id="wrapper" class="preload">
+            <div id="top-nav" class="skin-6 fixed">
+                <div class="brand">
+                    <span>App</span>
+                    <span class="text-toggle"> Creator</span>
+                </div><!-- /brand -->
+                <button type="button" class="navbar-toggle pull-left" id="sidebarToggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul class="nav-notification clearfix">
+                    <li style="background-color: #9ad268;">
+                        <a href="create_new.html"  style="color: #fff; font-weight: bolder;">
+                            <strong>CREATE</strong>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-envelope fa-lg"></i>
+                            <span class="notification-label bounceIn animation-delay4">7</span>
+                        </a>
+                        <ul class="dropdown-menu message dropdown-1">
+                            <li><a>You have 4 new unread messages</a></li>					  
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user1.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>John Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-check text-success"></i> 27m ago</small>
+                                    </div>
+                                </a>	
+                            </li>
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user111.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>Jane Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-check text-success"></i> 5hr ago</small>
+                                    </div>
+                                </a>	
+                            </li>
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user11.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>Bill Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-reply"></i> Yesterday</small>
+                                    </div>
+                                </a>	
+                            </li>
+                            <li><a href="inbox.html">View all messages</a></li>					  
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-bell fa-lg"></i>
+                            <span class="notification-label bounceIn animation-delay6">5</span>
+                        </a>
+                        <ul class="dropdown-menu notification dropdown-3">
+                            <li><a href="#">You have 5 new notifications</a></li>					  
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-warning">
+                                        <i class="fa fa-warning"></i>
+                                    </span>
+                                    <span class="m-left-xs">Server #2 not responding.</span>
+                                    <span class="time text-muted">Just now</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-success">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                    <span class="m-left-xs">New user registration.</span>
+                                    <span class="time text-muted">2m ago</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-danger">
+                                        <i class="fa fa-bolt"></i>
+                                    </span>
+                                    <span class="m-left-xs">Application error.</span>
+                                    <span class="time text-muted">5m ago</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-success">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                    <span class="m-left-xs">New user registration.</span>
+                                    <span class="time text-muted">1hr ago</span>
+                                </a>
+                            </li>
+                            <li><a href="#">View all notifications</a></li>					  
+                        </ul>
+                    </li>
+                    <li class="profile dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <strong>John Doe</strong>
+                            <span><i class="fa fa-chevron-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user1.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>John Doe</strong>
+                                        <p class="grey">John_Doe@email.com</p> 
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a tabindex="-1" href="profile.html" class="main-link"><i class="fa fa-edit fa-lg"></i> Edit profile</a></li>
+                            <li><a tabindex="-1" href="#" class="theme-setting"><i class="fa fa-cog fa-lg"></i> Setting</a></li>
+                            <li class="divider"></li>
+                            <li><a tabindex="-1" class="main-link logoutConfirm_open" href="#logoutConfirm"><i class="fa fa-lock fa-lg"></i> Log out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /top-nav-->
+
+            <aside class="fixed skin-6">
+                <div class="sidebar-inner scrollable-sidebar">
+                    <div class="size-toggle">
+                        <a class="btn btn-sm" id="sizeToggle">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <a class="btn btn-sm pull-right logoutConfirm_open"  href="#logoutConfirm">
+                            <i class="fa fa-power-off"></i>
+                        </a>
+                    </div><!-- /size-toggle -->	
+                    <div class="user-block clearfix">
+                        <img src="img/user1.jpg" alt="User Avatar">
+                        <div class="detail">
+                            <strong>John Doe</strong>
+                            <ul class="list-inline">
+                                <li><a href="profile.html">Profile</a></li>
+                                <li><a href="#" class="no-margin">Settings</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- /user-block -->
+                    <div class="main-menu">
+                        <ul>
+                            <li>
+                                <a href="dashboard.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-desktop fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Dashboard
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="creator.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-tasks fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Creator
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="timeline.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-clock-o fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Timeline
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-picture-o fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Gallery
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="inbox.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-envelope fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Inbox
+                                    </span>
+                                    <span class="badge badge-danger bounceIn animation-delay6">4</span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="blog.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-edit fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Blog
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="invoice.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-book fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Invoice
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /main-menu -->
+                </div><!-- /sidebar-inner scrollable-sidebar -->
+            </aside>
+
+            <div id="main-container">
+                <div id="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li><i class="fa fa-home"></i><a href="index.html"> Home</a></li>
+                        <li class="active">Dashboard</li>	 
+                    </ul>
+                </div><!-- /breadcrumb-->
+                <div class="main-header clearfix">
+                    <div class="page-title">
+                        <h3 class="no-margin">Dashboard</h3>
+                        <span>Welcome back Mr.John Doe</span>
+                    </div><!-- /page-title -->
+
+                    <ul class="page-stats">
+                        <li>
+                            <div class="value">
+                                <span>New visits</span>
+                                <h4 id="currentVisitor">10</h4>
+                            </div>
+                            <span id="visits" class="sparkline"></span>
+                        </li>
+                        <li>
+                            <div class="value">
+                                <span>My balance</span>
+                                <h4>$<strong id="currentBalance">0</strong></h4>
+                            </div>
+                            <span id="balances" class="sparkline"></span>
+                        </li>
+                    </ul><!-- /page-stats -->
+                </div><!-- /main-header -->
+
+                <div class="padding-md">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-3">
+                            <div class="panel panel-default">
+                                <div class="panel-body" style="padding-bottom: 0px;">
+                                    <div class="panel-stat3 bg-danger">
+                                        <h2 class="m-top-none" id="userCount">3</h2>
+                                        <h5>Registered users</h5>
+                                        <i class="fa fa-arrow-circle-o-up fa-lg"></i><span class="m-left-xs">5% Higher than last week</span>
+                                        <div class="stat-icon">
+                                            <i class="fa fa-user fa-3x"></i>
+                                        </div>
+                                        <div class="refresh-button">
+                                            <i class="fa fa-refresh"></i>
+                                        </div>
+                                        <div class="loading-overlay">
+                                            <i class="loading-icon fa fa-refresh fa-spin fa-lg"></i>
+                                        </div>
+                                    </div>
+                                    <div class="panel-stat3 bg-success">
+                                        <h2 class="m-top-none" id="visitorCount">120</h2>
+                                        <h5>Total Visitors</h5>
+                                        <i class="fa fa-arrow-circle-o-up fa-lg"></i><span class="m-left-xs">15% Higher than last week</span>
+                                        <div class="stat-icon">
+                                            <i class="fa fa-bar-chart-o fa-3x"></i>
+                                        </div>
+                                        <div class="refresh-button">
+                                            <i class="fa fa-refresh"></i>
+                                        </div>
+                                        <div class="loading-overlay">
+                                            <i class="loading-icon fa fa-refresh fa-spin fa-lg"></i>
+                                        </div>
+                                    </div>
+                                    <div class="panel-stat3 bg-danger">
+                                        <h2 class="m-top-none" id="userCount">2</h2>
+                                        <h5>Logged In users</h5>
+                                        <i class="fa fa-arrow-circle-o-up fa-lg"></i><span class="m-left-xs">5% Higher than last week</span>
+                                        <div class="stat-icon">
+                                            <i class="fa fa-user fa-3x"></i>
+                                        </div>
+                                        <div class="refresh-button">
+                                            <i class="fa fa-refresh"></i>
+                                        </div>
+                                        <div class="loading-overlay">
+                                            <i class="loading-icon fa fa-refresh fa-spin fa-lg"></i>
+                                        </div>
+                                    </div>
+                                </div></div>
+                        </div><!-- /.col -->
+                        <div class="col-sm-12 col-md-9">
+                            <div class="panel panel-default">
+                                <div class="panel-body" style="padding-bottom: 0px;">
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="panel panel-default panel-stat2 bg-warning">
+                                            <div class="panel-body">
+                                                <span class="stat-icon">
+                                                    <i class="fa fa-magic"></i>
+                                                </span>
+                                                <div class="pull-right text-right">
+                                                    <div class="value">6</div>
+                                                    <div class="title">Total Apps</div>
+                                                </div>
+                                            </div>
+                                        </div><!-- /panel -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="panel panel-default panel-stat2 bg-info">
+                                            <div class="panel-body">
+                                                <span class="stat-icon">
+                                                    <i class="fa fa-cogs"></i>
+                                                </span>
+                                                <div class="pull-right text-right">
+                                                    <div class="value">2</div>
+                                                    <div class="title">New Apps</div>
+                                                </div>
+                                            </div>
+                                        </div><!-- /panel -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="panel panel-default panel-stat2 bg-warning">
+                                            <div class="panel-body">
+                                                <span class="stat-icon">
+                                                    <i class="fa fa-money"></i>
+                                                </span>
+                                                <div class="pull-right text-right">
+                                                    <div class="value">0</div>
+                                                    <div class="title">Sold Apps</div>
+                                                </div>
+                                            </div>
+                                        </div><!-- /panel -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="panel panel-default panel-stat2 bg-info">
+                                            <div class="panel-body">
+                                                <span class="stat-icon">
+                                                    <i class="fa fa-thumbs-up"></i>
+                                                </span>
+                                                <div class="pull-right text-right">
+                                                    <div class="value">41</div>
+                                                    <div class="title">Total Likes</div>
+                                                </div>
+                                            </div>
+                                        </div><!-- /panel -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="panel panel-default panel-stat2 bg-warning">
+                                            <div class="panel-body">
+                                                <span class="stat-icon">
+                                                    <i class="fa fa-comments"></i>
+                                                </span>
+                                                <div class="pull-right text-right">
+                                                    <div class="value">32</div>
+                                                    <div class="title">Total Comments</div>
+                                                </div>
+                                            </div>
+                                        </div><!-- /panel -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="panel panel-default panel-stat2 bg-info">
+                                            <div class="panel-body">
+                                                <span class="stat-icon">
+                                                    <i class="fa fa-edit"></i>
+                                                </span>
+                                                <div class="pull-right text-right">
+                                                    <div class="value">8</div>
+                                                    <div class="title">Blog</div>
+                                                </div>
+                                            </div>
+                                        </div><!-- /panel -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="panel panel-default panel-stat2 bg-warning">
+                                            <div class="panel-body">
+                                                <span class="stat-icon">
+                                                    <i class="fa fa-eye"></i>
+                                                </span>
+                                                <div class="pull-right text-right">
+                                                    <div class="value">8</div>
+                                                    <div class="title">FAQ</div>
+                                                </div>
+                                            </div>
+                                        </div><!-- /panel -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="panel panel-default panel-stat2 bg-info">
+                                            <div class="panel-body">
+                                                <span class="stat-icon">
+                                                    <i class="fa fa-book"></i>
+                                                </span>
+                                                <div class="pull-right text-right">
+                                                    <div class="value">8</div>
+                                                    <div class="title">Invoice</div>
+                                                </div>
+                                            </div>
+                                        </div><!-- /panel -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="panel panel-default panel-stat2 bg-warning">
+                                            <div class="panel-body">
+                                                <span class="stat-icon">
+                                                    <i class="fa fa-envelope"></i>
+                                                </span>
+                                                <div class="pull-right text-right">
+                                                    <div class="value">127</div>
+                                                    <div class="title">Email</div>
+                                                </div>
+                                            </div>
+                                        </div><!-- /panel -->
+                                    </div><!-- /.col -->
+                                </div><!-- /.panel-body -->
+                            </div><!-- /.panel-->
+                        </div><!-- /.col -->
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <div id="donutChart" style="height: 250px;"></div>
+                                    <div class="panel-group" id="accordion">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                        IN-STORE Sales
+                                                        <span class="badge badge-success pull-right">75%</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseOne" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. 
+                                                </div>
+                                            </div>
+                                        </div><!-- panel -->
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                        DOWMLOAD Sales
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. 
+                                                </div>
+                                            </div>
+                                        </div><!-- panel -->
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                                        MAIL-ORDER Sales 
+                                                        <span class="badge badge-danger pull-right"><i class="fa fa-arrow-down"></i> 3%</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. 
+                                                </div>
+                                            </div>
+                                        </div><!-- panel -->
+                                    </div><!-- panel-group -->
+                                </div>
+                            </div><!-- /panel -->
+                            <div class="panel bg-success fadeInDown animation-delay5">
+                                <div class="panel-body">
+                                    <div id="barChart" style="height: 150px;"></div>
+                                </div>
+                                <div class="panel-footer">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <h4 class="no-margin">Total Earnings</h4>
+                                        </div><!-- /.col -->
+                                        <div class="col-xs-6 text-right">
+                                            <h4 class="no-margin">$17,531</h4>
+                                        </div><!-- /.col -->
+                                    </div><!-- /.row -->
+                                </div>
+                            </div><!-- /panel -->
+                        </div><!-- /.col -->
+                        <div class="col-lg-8">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <i class="fa fa-bar-chart-o fa-lg"></i> Website Traffic
+                                    <ul class="tool-bar">
+                                        <li><a href="#" class="refresh-widget" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Refresh"><i class="fa fa-refresh"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="panel-body" id="trafficWidget">
+                                    <div id="placeholder" class="graph" style="height:250px"></div>
+                                </div>
+                                <div class="panel-footer">
+                                    <div class="row row-merge">
+                                        <div class="col-xs-3 text-center border-right">
+                                            <h4 class="no-margin">1232</h4>
+                                            <small class="text-muted">Visitors</small>
+                                        </div>
+                                        <div class="col-xs-3 text-center border-right">
+                                            <h4 class="no-margin">5421</h4>
+                                            <small class="text-muted">Orders</small>
+                                        </div>
+                                        <div class="col-xs-3 text-center border-right">
+                                            <h4 class="no-margin">3021</h4>
+                                            <small class="text-muted">Tickets</small>
+                                        </div>
+                                        <div class="col-xs-3 text-center">
+                                            <h4 class="no-margin">7098</h4>
+                                            <small class="text-muted">Customers</small>
+                                        </div>
+                                    </div><!-- ./row -->
+                                </div>
+                                <div class="loading-overlay">
+                                    <i class="loading-icon fa fa-refresh fa-spin fa-lg"></i>
+                                </div>
+                            </div><!-- /panel -->
+                            <div class="panel bg-info fadeInDown animation-delay4">
+                                <div class="panel-body">
+                                    <div id="lineChart" style="height: 150px;"></div>
+                                </div>
+                                <div class="panel-footer">
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            Sales in June
+                                            <strong class="block">$664</strong>
+                                        </div><!-- /.col -->
+                                        <div class="col-xs-4">
+                                            Sales in July
+                                            <strong class="block">$731</strong>
+                                        </div><!-- /.col -->
+                                        <div class="col-xs-4">
+                                            Sales in August
+                                            <strong class="block">$912</strong>
+                                        </div><!-- /.col -->
+                                    </div><!-- /.row -->
+                                </div>
+                            </div><!-- /panel -->
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.padding-md -->
+            </div><!-- /main-container -->
+            <!-- Footer
+            ================================================== -->
+            <footer>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span class="footer-brand">
+                            <strong class="text-danger">App</strong> Creator
+                        </span>
+                        <p class="no-margin">
+                            &copy; 2014 <strong>App Creator</strong>. ALL Rights Reserved. 
+                        </p>
+                    </div><!-- /.col -->
+                </div><!-- /.row-->
+            </footer>
+
+
+            <!--Modal-->
+            <div class="modal fade" id="newFolder">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4>Create new folder</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="folderName">Folder Name</label>
+                                    <input type="text" class="form-control input-sm" id="folderName" placeholder="Folder name here...">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-sm btn-success" data-dismiss="modal" aria-hidden="true">Close</button>
+                            <a href="#" class="btn btn-danger btn-sm">Save changes</a>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+        </div><!-- /wrapper -->
+
+        <a href="" id="scroll-to-top" class="hidden-print"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- Logout confirmation -->
+        <div class="custom-popup width-100" id="logoutConfirm">
+            <div class="padding-md">
+                <h4 class="m-top-none"> Do you want to logout?</h4>
+            </div>
+
+            <div class="text-center">
+                <a class="btn btn-success m-right-sm" href="login.html">Logout</a>
+                <a class="btn btn-danger logoutConfirm_close">Cancel</a>
+            </div>
+        </div>
+
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+
+        <!-- Jquery -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="bootstrap/js/bootstrap.js"></script>
+
+        <!-- Flot -->
+        <script src='js/jquery.flot.min.js'></script>
+
+        <!-- Morris -->
+        <script src='js/rapheal.min.js'></script>	
+        <script src='js/morris.min.js'></script>	
+
+        <!-- Colorbox -->
+        <script src='js/jquery.colorbox.min.js'></script>	
+
+        <!-- Sparkline -->
+        <script src='js/jquery.sparkline.min.js'></script>
+
+        <!-- Pace -->
+        <script src='js/pace.min.js'></script>
+
+        <!-- Popup Overlay -->
+        <script src='js/jquery.popupoverlay.min.js'></script>
+
+        <!-- Slimscroll -->
+        <script src='js/jquery.slimscroll.min.js'></script>
+
+        <!-- Modernizr -->
+        <script src='js/modernizr.min.js'></script>
+
+        <!-- Cookie -->
+        <script src='js/jquery.cookie.min.js'></script>
+
+        <!-- Endless -->
+        <script src="js/endless/endless_dashboard.js"></script>
+        <script src="js/endless/endless.js"></script>
+
+    </body>
+</html>

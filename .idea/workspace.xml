@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ecee7931-ec7e-4102-8bac-3f2c35d92cc7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/README.txt" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/README.txt" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/README.txt" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/README_1.txt" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/README_1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/README_2.txt" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/README_2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/animations.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/animations.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/animations.less" afterPath="$PROJECT_DIR$/app_creator_final/less/animations.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/animations.less" afterPath="$PROJECT_DIR$/public/less/animations.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/animations_1.less" afterPath="$PROJECT_DIR$/public/less/animations_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/backbone-0.5.3/backbone.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/backbone-0.5.3/backbone.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/backbone-0.5.3/backbone.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/backbone-0.5.3/backbone.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/backbone-0.5.3/backbone.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/backbone-0.5.3/backbone.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/backbone-0.5.3/backbone.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/backbone-0.5.3/backbone.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/backbone-0.5.3/backbone.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/backbone-0.5.3/backbone.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/basic.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/basic.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/basic.less" afterPath="$PROJECT_DIR$/app_creator_final/less/basic.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/basic.less" afterPath="$PROJECT_DIR$/public/less/basic.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/basic_1.less" afterPath="$PROJECT_DIR$/public/less/basic_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/benchmark.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/benchmark.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/benchmark.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/benchmark.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/benchmark.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/benchmark.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/benchmark_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/benchmark_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/benchmark_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/benchmark_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/blog.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/blog.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/blog.less" afterPath="$PROJECT_DIR$/app_creator_final/less/blog.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/blog.less" afterPath="$PROJECT_DIR$/public/less/blog.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/blog.php" afterPath="$PROJECT_DIR$/application/controllers/blog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/blog_1.less" afterPath="$PROJECT_DIR$/public/less/blog_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/bootstrap-datepicker.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/bootstrap-datepicker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/bootstrap-datepicker.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/bootstrap-datepicker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bootstrap-datepicker.min.js" afterPath="$PROJECT_DIR$/public/js/bootstrap-datepicker.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bootstrap-datepicker.min_1.js" afterPath="$PROJECT_DIR$/public/js/bootstrap-datepicker.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bootstrap-datepicker.min_2.js" afterPath="$PROJECT_DIR$/public/js/bootstrap-datepicker.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/bootstrap-slider.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/bootstrap-slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/uncompressed/bootstrap-slider.js" afterPath="$PROJECT_DIR$/app_creator_final/js/uncompressed/bootstrap-slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/bootstrap-slider.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/bootstrap-slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/bootstrap-slider.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/bootstrap-slider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/bootstrap-slider.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/bootstrap-slider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bootstrap-slider.min.js" afterPath="$PROJECT_DIR$/public/js/bootstrap-slider.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bootstrap-slider.min_1.js" afterPath="$PROJECT_DIR$/public/js/bootstrap-slider.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bootstrap-slider.min_2.js" afterPath="$PROJECT_DIR$/public/js/bootstrap-slider.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/bootstrap-slider_1.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/bootstrap-slider_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/bootstrap-slider_2.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/bootstrap-slider_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/breadcrumb.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/breadcrumb.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/breadcrumb.less" afterPath="$PROJECT_DIR$/app_creator_final/less/breadcrumb.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/breadcrumb.less" afterPath="$PROJECT_DIR$/public/less/breadcrumb.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/breadcrumb_1.less" afterPath="$PROJECT_DIR$/public/less/breadcrumb_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/buttons.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/buttons.less" afterPath="$PROJECT_DIR$/app_creator_final/less/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/buttons.less" afterPath="$PROJECT_DIR$/public/less/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/buttons_1.less" afterPath="$PROJECT_DIR$/public/less/buttons_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/img/cd-icon-3d.svg" afterPath="$PROJECT_DIR$/Template_by_ruhee/img/cd-icon-3d.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/img/cd-icon-3d.svg" afterPath="$PROJECT_DIR$/app_creator_final/img/cd-icon-3d.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/cd-icon-3d.svg" afterPath="$PROJECT_DIR$/public/img/cd-icon-3d.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/cd-icon-3d_1.svg" afterPath="$PROJECT_DIR$/public/img/cd-icon-3d_1.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/cd-icon-3d_2.svg" afterPath="$PROJECT_DIR$/public/img/cd-icon-3d_2.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/img/cd-icon-arrow.svg" afterPath="$PROJECT_DIR$/Template_by_ruhee/img/cd-icon-arrow.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/img/cd-icon-arrow.svg" afterPath="$PROJECT_DIR$/app_creator_final/img/cd-icon-arrow.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/cd-icon-arrow.svg" afterPath="$PROJECT_DIR$/public/img/cd-icon-arrow.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/cd-icon-arrow_1.svg" afterPath="$PROJECT_DIR$/public/img/cd-icon-arrow_1.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/cd-icon-arrow_2.svg" afterPath="$PROJECT_DIR$/public/img/cd-icon-arrow_2.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/create_app.php" afterPath="$PROJECT_DIR$/application/controllers/create_app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/create_new.html" afterPath="$PROJECT_DIR$/app_creator_final/create_new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/creator.php" afterPath="$PROJECT_DIR$/application/controllers/creator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/demo.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/demo.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/demo.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/json/demo.json" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/json/demo.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/json/demo.json" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/json/demo.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/json/demo.json" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/json/demo.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/demo_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/demo_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/json/demo_1.json" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/json/demo_1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/demo_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/demo_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/json/demo_2.json" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/json/demo_2.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/dropdown.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/dropdown.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/dropdown.less" afterPath="$PROJECT_DIR$/app_creator_final/less/dropdown.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/dropdown.less" afterPath="$PROJECT_DIR$/public/less/dropdown.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/dropdown_1.less" afterPath="$PROJECT_DIR$/public/less/dropdown_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/textedit/easy-editable-text.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/textedit/easy-editable-text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/textedit/easy-editable-text.js" afterPath="$PROJECT_DIR$/app_creator_final/js/textedit/easy-editable-text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/textedit/easy-editable-text.js" afterPath="$PROJECT_DIR$/public/js/textedit/easy-editable-text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/textedit/easy-editable-text_1.js" afterPath="$PROJECT_DIR$/public/js/textedit/easy-editable-text_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/textedit/easy-editable-text_2.js" afterPath="$PROJECT_DIR$/public/js/textedit/easy-editable-text_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/elements.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/elements.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/elements.less" afterPath="$PROJECT_DIR$/app_creator_final/less/elements.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/elements.less" afterPath="$PROJECT_DIR$/public/less/elements.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/elements_1.less" afterPath="$PROJECT_DIR$/public/less/elements_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/endless/endless.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/endless/endless.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/endless/endless.js" afterPath="$PROJECT_DIR$/app_creator_final/js/endless/endless.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/endless/endless.js" afterPath="$PROJECT_DIR$/public/js/endless/endless.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/endless/endless_1.js" afterPath="$PROJECT_DIR$/public/js/endless/endless_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/endless/endless_2.js" afterPath="$PROJECT_DIR$/public/js/endless/endless_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/endless/endless_dashboard.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/endless/endless_dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/endless/endless_dashboard.js" afterPath="$PROJECT_DIR$/app_creator_final/js/endless/endless_dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/endless/endless_dashboard.js" afterPath="$PROJECT_DIR$/public/js/endless/endless_dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/endless/endless_dashboard_1.js" afterPath="$PROJECT_DIR$/public/js/endless/endless_dashboard_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/endless/endless_dashboard_2.js" afterPath="$PROJECT_DIR$/public/js/endless/endless_dashboard_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/endless/endless_form.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/endless/endless_form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/endless/endless_form.js" afterPath="$PROJECT_DIR$/app_creator_final/js/endless/endless_form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/endless/endless_form.js" afterPath="$PROJECT_DIR$/public/js/endless/endless_form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/endless/endless_form_1.js" afterPath="$PROJECT_DIR$/public/js/endless/endless_form_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/endless/endless_form_2.js" afterPath="$PROJECT_DIR$/public/js/endless/endless_form_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/endless/endless_wizard.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/endless/endless_wizard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/endless/endless_wizard.js" afterPath="$PROJECT_DIR$/app_creator_final/js/endless/endless_wizard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/endless/endless_wizard.js" afterPath="$PROJECT_DIR$/public/js/endless/endless_wizard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/endless/endless_wizard_1.js" afterPath="$PROJECT_DIR$/public/js/endless/endless_wizard_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/endless/endless_wizard_2.js" afterPath="$PROJECT_DIR$/public/js/endless/endless_wizard_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/footer.php" afterPath="$PROJECT_DIR$/application/views/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/form-checkbox.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/form-checkbox.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/form-checkbox.less" afterPath="$PROJECT_DIR$/app_creator_final/less/form-checkbox.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/form-checkbox.less" afterPath="$PROJECT_DIR$/public/less/form-checkbox.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/form-checkbox_1.less" afterPath="$PROJECT_DIR$/public/less/form-checkbox_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/form.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/form.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/form.less" afterPath="$PROJECT_DIR$/app_creator_final/less/form.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/form.less" afterPath="$PROJECT_DIR$/public/less/form.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/form_1.less" afterPath="$PROJECT_DIR$/public/less/form_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/gallery.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/gallery.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/gallery.less" afterPath="$PROJECT_DIR$/app_creator_final/less/gallery.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/gallery.less" afterPath="$PROJECT_DIR$/public/less/gallery.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/gallery.php" afterPath="$PROJECT_DIR$/application/controllers/gallery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/gallery_1.less" afterPath="$PROJECT_DIR$/public/less/gallery_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/header.php" afterPath="$PROJECT_DIR$/application/views/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/inbox.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/inbox.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/inbox.less" afterPath="$PROJECT_DIR$/app_creator_final/less/inbox.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/inbox.less" afterPath="$PROJECT_DIR$/public/less/inbox.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/inbox.php" afterPath="$PROJECT_DIR$/application/controllers/inbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/inbox_1.less" afterPath="$PROJECT_DIR$/public/less/inbox_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/invoice.php" afterPath="$PROJECT_DIR$/application/controllers/invoice.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/jquery-1.10.2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/uncompressed/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/app_creator_final/js/uncompressed/jquery-1.10.2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery-1.10.2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-1.10.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-1.10.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-1.10.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-1.10.2.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-1.10.2.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-1.10.2.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-1.10.2.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery-1.10.2_1.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery-1.10.2_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery-1.10.2_2.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery-1.10.2_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/textedit/jquery-1.4.2.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/textedit/jquery-1.4.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/textedit/jquery-1.4.2.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/textedit/jquery-1.4.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/textedit/jquery-1.4.2.min.js" afterPath="$PROJECT_DIR$/public/js/textedit/jquery-1.4.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/textedit/jquery-1.4.2.min_1.js" afterPath="$PROJECT_DIR$/public/js/textedit/jquery-1.4.2.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/textedit/jquery-1.4.2.min_2.js" afterPath="$PROJECT_DIR$/public/js/textedit/jquery-1.4.2.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-basic-example.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-basic-example.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-basic-example.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-basic-example.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-basic-example.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-basic-example.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-basic-example_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-basic-example_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-basic-example_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-basic-example_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-clustering.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-clustering.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-clustering.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-clustering.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-clustering.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-clustering.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-clustering_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-clustering_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-clustering_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-clustering_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-data-attribute.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-data-attribute.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-data-attribute.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-data-attribute.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-data-attribute.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-data-attribute.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-data-attribute_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-data-attribute_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-data-attribute_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-data-attribute_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-extend-with-pagination.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-extend-with-pagination.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-extend-with-pagination.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-extend-with-pagination.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-extend-with-pagination.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-extend-with-pagination.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-extend-with-pagination_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-extend-with-pagination_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-extend-with-pagination_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-extend-with-pagination_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-filtering.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-filtering.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-filtering.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-filtering.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-filtering.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-filtering.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-filtering_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-filtering_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-filtering_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-filtering_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-fusion-tables.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-fusion-tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-fusion-tables.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-fusion-tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-fusion-tables.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-fusion-tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-fusion-tables_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-fusion-tables_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-fusion-tables_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-fusion-tables_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-geocoding.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-geocoding.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-geocoding.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-geocoding.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-geocoding.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-geocoding.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-geocoding_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-geocoding_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-geocoding_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-geocoding_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-geolocation.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-geolocation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-geolocation.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-geolocation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-geolocation.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-geolocation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-geolocation_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-geolocation_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-geolocation_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-geolocation_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-json.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-json.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-json.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-json.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-json.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-json.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-json_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-json_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-json_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-json_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-microdata.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-microdata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-microdata.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-microdata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-microdata.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-microdata.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-microdata_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-microdata_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-microdata_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-microdata_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-microformat.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-microformat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-microformat.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-microformat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-microformat.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-microformat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-microformat_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-microformat_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-microformat_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-microformat_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-mobile-boilerplate.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-mobile-boilerplate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-mobile-boilerplate.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-mobile-boilerplate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-mobile-boilerplate.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-mobile-boilerplate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-mobile-boilerplate_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-mobile-boilerplate_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-mobile-boilerplate_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-mobile-boilerplate_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-mobile.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-mobile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-mobile.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-mobile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-mobile.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-mobile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-mobile_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-mobile_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-mobile_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-mobile_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-rdfa.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-rdfa.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-rdfa.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-rdfa.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-rdfa.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-rdfa.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-rdfa_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-rdfa_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-rdfa_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-rdfa_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-streetview.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-google-maps-streetview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-streetview.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-google-maps-streetview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-streetview.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-streetview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-streetview_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-streetview_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-streetview_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-google-maps-streetview_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-mobile-example.html" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/jquery-mobile-example.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-mobile-example.html" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/jquery-mobile-example.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-mobile-example.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-mobile-example.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-mobile-example_1.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-mobile-example_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-mobile-example_2.html" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/jquery-mobile-example_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.cookie.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.cookie.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery.cookie.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery.cookie.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.cookie.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.cookie.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.cookie.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery.cookie.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.cookie.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery.cookie.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/jquery.localscroll.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/jquery.localscroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/uncompressed/jquery.localscroll.js" afterPath="$PROJECT_DIR$/app_creator_final/js/uncompressed/jquery.localscroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery.localscroll.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery.localscroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.localscroll.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.localscroll.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery.localscroll.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery.localscroll.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.localscroll.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.localscroll.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.localscroll.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery.localscroll.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.localscroll.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery.localscroll.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery.localscroll_1.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery.localscroll_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery.localscroll_2.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery.localscroll_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/jquery.maskedinput.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/jquery.maskedinput.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/uncompressed/jquery.maskedinput.js" afterPath="$PROJECT_DIR$/app_creator_final/js/uncompressed/jquery.maskedinput.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery.maskedinput.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery.maskedinput.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.maskedinput.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.maskedinput.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery.maskedinput.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery.maskedinput.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.maskedinput.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.maskedinput.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.maskedinput.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery.maskedinput.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.maskedinput.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery.maskedinput.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery.maskedinput_1.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery.maskedinput_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery.maskedinput_2.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery.maskedinput_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/jquery-1.7.1/jquery.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/jquery-1.7.1/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/jquery-1.7.1/jquery.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/jquery-1.7.1/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery-1.7.1/jquery.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery-1.7.1/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery-1.7.1/jquery.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery-1.7.1/jquery.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery-1.7.1/jquery.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery-1.7.1/jquery.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/css/jquery-mobile-1.0/jquery.mobile.css" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/css/jquery-mobile-1.0/jquery.mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/css/jquery-mobile-1.0/jquery.mobile.css" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/css/jquery-mobile-1.0/jquery.mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/css/jquery-mobile-1.0/jquery.mobile.css" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/css/jquery-mobile-1.0/jquery.mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/jquery-mobile-1.0/jquery.mobile.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/jquery-mobile-1.0/jquery.mobile.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/jquery-mobile-1.0/jquery.mobile.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/jquery-mobile-1.0/jquery.mobile.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery-mobile-1.0/jquery.mobile.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery-mobile-1.0/jquery.mobile.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery-mobile-1.0/jquery.mobile.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery-mobile-1.0/jquery.mobile.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery-mobile-1.0/jquery.mobile.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery-mobile-1.0/jquery.mobile.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/css/jquery-mobile-1.0/jquery.mobile_1.css" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/css/jquery-mobile-1.0/jquery.mobile_1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/css/jquery-mobile-1.0/jquery.mobile_2.css" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/css/jquery-mobile-1.0/jquery.mobile_2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.nestable.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.nestable.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery.nestable.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery.nestable.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.nestable.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.nestable.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.nestable.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery.nestable.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.nestable.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery.nestable.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/jquery.popupoverlay.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/jquery.popupoverlay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/uncompressed/jquery.popupoverlay.js" afterPath="$PROJECT_DIR$/app_creator_final/js/uncompressed/jquery.popupoverlay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery.popupoverlay.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery.popupoverlay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.popupoverlay.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.popupoverlay.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery.popupoverlay.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery.popupoverlay.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.popupoverlay.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.popupoverlay.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.popupoverlay.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery.popupoverlay.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.popupoverlay.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery.popupoverlay.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery.popupoverlay_1.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery.popupoverlay_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery.popupoverlay_2.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery.popupoverlay_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/jquery.resize.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/jquery.resize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/uncompressed/jquery.resize.js" afterPath="$PROJECT_DIR$/app_creator_final/js/uncompressed/jquery.resize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery.resize.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery.resize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.resize.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.resize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery.resize.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery.resize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.resize.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.resize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.resize.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery.resize.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.resize.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery.resize.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery.resize_1.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery.resize_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/jquery.resize_2.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/jquery.resize_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery.sparkline.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery.sparkline.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.sparkline.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.sparkline.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery.sparkline.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.sparkline.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery.sparkline.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/jquery.ui-1.8.15/jquery.ui.autocomplete.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/jquery.ui-1.8.15/jquery.ui.autocomplete.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/jquery.ui-1.8.15/jquery.ui.autocomplete.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/jquery.ui-1.8.15/jquery.ui.autocomplete.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery.ui-1.8.15/jquery.ui.autocomplete.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery.ui-1.8.15/jquery.ui.autocomplete.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery.ui-1.8.15/jquery.ui.autocomplete.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery.ui-1.8.15/jquery.ui.autocomplete.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery.ui-1.8.15/jquery.ui.autocomplete.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/jquery.ui-1.8.15/jquery.ui.autocomplete.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.extensions.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.extensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.extensions.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.extensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.extensions.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.extensions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.extensions_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.extensions_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.extensions_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.extensions_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.full.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.full.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.full.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.full.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.full.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.full.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.full.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.full.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.full.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.full.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.microdata.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.microdata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.microdata.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.microdata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.microdata.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.microdata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.microdata.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.microdata.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.microdata.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.microdata.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.microdata.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.microdata.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.microdata.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.microdata.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.microdata.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.microdata.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.microdata_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.microdata_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.microdata_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.microdata_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.microformat.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.microformat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.microformat.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.microformat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.microformat.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.microformat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.microformat.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.microformat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.microformat.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.microformat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.microformat.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.microformat.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.microformat.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.microformat.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.microformat.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.microformat.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.microformat_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.microformat_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.microformat_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.microformat_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.overlays.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.overlays.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.overlays.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.overlays.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.overlays.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.overlays.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.overlays.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.overlays.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.overlays.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.overlays.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.overlays.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.overlays.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.overlays.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.overlays.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.overlays.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.overlays.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.overlays_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.overlays_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.overlays_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.overlays_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.rdfa.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.rdfa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.rdfa.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.rdfa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.rdfa.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.rdfa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.rdfa.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.rdfa.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.rdfa.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.rdfa.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.rdfa.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.rdfa.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.rdfa.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.rdfa.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.rdfa.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.rdfa.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.rdfa_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.rdfa_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.rdfa_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.rdfa_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.services.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/jquery.ui.map.services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.services.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/jquery.ui.map.services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.services.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.services.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/ui/min/jquery.ui.map.services.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.services.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/ui/min/jquery.ui.map.services.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.services.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.services.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.services.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.services.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.services.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/min/jquery.ui.map.services.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.services_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.services_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.services_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map.services_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/ui/jquery.ui.map_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/json2.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/json2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/json2.js" afterPath="$PROJECT_DIR$/app_creator_final/json2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/json2.js" afterPath="$PROJECT_DIR$/public/js/json2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/login-register.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/login-register.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/login-register.less" afterPath="$PROJECT_DIR$/app_creator_final/less/login-register.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/login-register.less" afterPath="$PROJECT_DIR$/public/less/login-register.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/login-register_1.less" afterPath="$PROJECT_DIR$/public/less/login-register_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/m_common.php" afterPath="$PROJECT_DIR$/application/models/m_common.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/mixins.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/mixins.less" afterPath="$PROJECT_DIR$/app_creator_final/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/mixins.less" afterPath="$PROJECT_DIR$/public/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/mixins_1.less" afterPath="$PROJECT_DIR$/public/less/mixins_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/css/mobile.css" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/css/mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/css/mobile.css" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/css/mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/css/mobile.css" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/css/mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/css/mobile_1.css" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/css/mobile_1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/css/mobile_2.css" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/css/mobile_2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/modernizr.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/modernizr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/uncompressed/modernizr.js" afterPath="$PROJECT_DIR$/app_creator_final/js/uncompressed/modernizr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/modernizr.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/modernizr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/modernizr.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/modernizr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/modernizr-2.0.6/modernizr.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/modernizr-2.0.6/modernizr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/modernizr.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/modernizr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/modernizr-2.0.6/modernizr.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/modernizr-2.0.6/modernizr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/modernizr.min.js" afterPath="$PROJECT_DIR$/public/js/modernizr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/modernizr-2.0.6/modernizr.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/modernizr-2.0.6/modernizr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/modernizr.min_1.js" afterPath="$PROJECT_DIR$/public/js/modernizr.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/modernizr-2.0.6/modernizr.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/modernizr-2.0.6/modernizr.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/modernizr.min_2.js" afterPath="$PROJECT_DIR$/public/js/modernizr.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/modernizr-2.0.6/modernizr.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/modernizr-2.0.6/modernizr.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/modernizr_1.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/modernizr_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/modernizr_2.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/modernizr_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/my_controller.php" afterPath="$PROJECT_DIR$/application/core/my_controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/other.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/other.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/other.less" afterPath="$PROJECT_DIR$/app_creator_final/less/other.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/other.less" afterPath="$PROJECT_DIR$/public/less/other.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/other_1.less" afterPath="$PROJECT_DIR$/public/less/other_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/overlay.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/overlay.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/overlay.less" afterPath="$PROJECT_DIR$/app_creator_final/less/overlay.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/overlay.less" afterPath="$PROJECT_DIR$/public/less/overlay.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/overlay_1.less" afterPath="$PROJECT_DIR$/public/less/overlay_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/parsley.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/parsley.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/parsley.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/parsley.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/parsley.min.js" afterPath="$PROJECT_DIR$/public/js/parsley.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/parsley.min_1.js" afterPath="$PROJECT_DIR$/public/js/parsley.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/parsley.min_2.js" afterPath="$PROJECT_DIR$/public/js/parsley.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/popup.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/popup.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/popup.less" afterPath="$PROJECT_DIR$/app_creator_final/less/popup.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/popup.less" afterPath="$PROJECT_DIR$/public/less/popup.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/popup_1.less" afterPath="$PROJECT_DIR$/public/less/popup_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/pricing-table.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/pricing-table.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/pricing-table.less" afterPath="$PROJECT_DIR$/app_creator_final/less/pricing-table.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/pricing-table.less" afterPath="$PROJECT_DIR$/public/less/pricing-table.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/pricing-table_1.less" afterPath="$PROJECT_DIR$/public/less/pricing-table_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/profile.php" afterPath="$PROJECT_DIR$/application/controllers/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/rapheal.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/uncompressed/rapheal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/uncompressed/rapheal.js" afterPath="$PROJECT_DIR$/app_creator_final/js/uncompressed/rapheal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/rapheal.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/rapheal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/rapheal.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/rapheal.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/rapheal.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/rapheal.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/rapheal.min.js" afterPath="$PROJECT_DIR$/public/js/rapheal.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/rapheal.min_1.js" afterPath="$PROJECT_DIR$/public/js/rapheal.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/rapheal.min_2.js" afterPath="$PROJECT_DIR$/public/js/rapheal.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/rapheal_1.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/rapheal_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/uncompressed/rapheal_2.js" afterPath="$PROJECT_DIR$/public/js/uncompressed/rapheal_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/register.php" afterPath="$PROJECT_DIR$/application/controllers/register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/sidebar-control.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/sidebar-control.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/sidebar-control.less" afterPath="$PROJECT_DIR$/app_creator_final/less/sidebar-control.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/sidebar-control.less" afterPath="$PROJECT_DIR$/public/less/sidebar-control.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/sidebar-control_1.less" afterPath="$PROJECT_DIR$/public/less/sidebar-control_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/sidebar.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/sidebar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/sidebar.less" afterPath="$PROJECT_DIR$/app_creator_final/less/sidebar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/sidebar.less" afterPath="$PROJECT_DIR$/public/less/sidebar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/sidebar_1.less" afterPath="$PROJECT_DIR$/public/less/sidebar_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/tab.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/tab.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/tab.less" afterPath="$PROJECT_DIR$/app_creator_final/less/tab.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/tab.less" afterPath="$PROJECT_DIR$/public/less/tab.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/tab_1.less" afterPath="$PROJECT_DIR$/public/less/tab_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/table.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/table.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/table.less" afterPath="$PROJECT_DIR$/app_creator_final/less/table.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/table.less" afterPath="$PROJECT_DIR$/public/less/table.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/table_1.less" afterPath="$PROJECT_DIR$/public/less/table_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/thirdparty-fullcalendar.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/thirdparty-fullcalendar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/thirdparty-fullcalendar.less" afterPath="$PROJECT_DIR$/app_creator_final/less/thirdparty-fullcalendar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/thirdparty-fullcalendar.less" afterPath="$PROJECT_DIR$/public/less/thirdparty-fullcalendar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/thirdparty-fullcalendar_1.less" afterPath="$PROJECT_DIR$/public/less/thirdparty-fullcalendar_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/thirdparty-gritter.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/thirdparty-gritter.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/thirdparty-gritter.less" afterPath="$PROJECT_DIR$/app_creator_final/less/thirdparty-gritter.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/thirdparty-gritter.less" afterPath="$PROJECT_DIR$/public/less/thirdparty-gritter.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/thirdparty-gritter_1.less" afterPath="$PROJECT_DIR$/public/less/thirdparty-gritter_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/timeline.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/timeline.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/timeline.less" afterPath="$PROJECT_DIR$/app_creator_final/less/timeline.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/timeline.less" afterPath="$PROJECT_DIR$/public/less/timeline.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/timeline.php" afterPath="$PROJECT_DIR$/application/controllers/timeline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/timeline_1.less" afterPath="$PROJECT_DIR$/public/less/timeline_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/topnav.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/topnav.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/topnav.less" afterPath="$PROJECT_DIR$/app_creator_final/less/topnav.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/topnav.less" afterPath="$PROJECT_DIR$/public/less/topnav.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/topnav_1.less" afterPath="$PROJECT_DIR$/public/less/topnav_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/underscore-1.2.2/underscore.min.js" afterPath="$PROJECT_DIR$/Template_by_ruhee/js/jquery-ui-map/demos/js/underscore-1.2.2/underscore.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/underscore-1.2.2/underscore.min.js" afterPath="$PROJECT_DIR$/app_creator_final/js/jquery-ui-map/demos/js/underscore-1.2.2/underscore.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/underscore-1.2.2/underscore.min.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/underscore-1.2.2/underscore.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/underscore-1.2.2/underscore.min_1.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/underscore-1.2.2/underscore.min_1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/underscore-1.2.2/underscore.min_2.js" afterPath="$PROJECT_DIR$/public/js/jquery-ui-map/demos/js/underscore-1.2.2/underscore.min_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/utility.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/utility.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/utility.less" afterPath="$PROJECT_DIR$/app_creator_final/less/utility.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/utility.less" afterPath="$PROJECT_DIR$/public/less/utility.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/utility_1.less" afterPath="$PROJECT_DIR$/public/less/utility_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/v_blog.php" afterPath="$PROJECT_DIR$/application/views/v_blog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/create_app/v_create_app.php" afterPath="$PROJECT_DIR$/application/views/create_app/v_create_app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/v_creator.php" afterPath="$PROJECT_DIR$/application/views/v_creator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/v_dashboard.php" afterPath="$PROJECT_DIR$/application/views/v_dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/v_gallery.php" afterPath="$PROJECT_DIR$/application/views/v_gallery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/v_inbox.php" afterPath="$PROJECT_DIR$/application/views/v_inbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/v_invoice.php" afterPath="$PROJECT_DIR$/application/views/v_invoice.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/v_login.php" afterPath="$PROJECT_DIR$/application/views/v_login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/v_profile.php" afterPath="$PROJECT_DIR$/application/views/v_profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/v_register.php" afterPath="$PROJECT_DIR$/application/views/v_register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/v_timeline.php" afterPath="$PROJECT_DIR$/application/views/v_timeline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/variables.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/variables.less" afterPath="$PROJECT_DIR$/app_creator_final/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/variables.less" afterPath="$PROJECT_DIR$/public/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/variables_1.less" afterPath="$PROJECT_DIR$/public/less/variables_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template_by_ruhee/less/widget.less" afterPath="$PROJECT_DIR$/Template_by_ruhee/less/widget.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_creator_final/less/widget.less" afterPath="$PROJECT_DIR$/app_creator_final/less/widget.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/widget.less" afterPath="$PROJECT_DIR$/public/less/widget.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/less/widget_1.less" afterPath="$PROJECT_DIR$/public/less/widget_1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="143play.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="143play" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+<<<<<<< HEAD
+      <file leaf-file-name="v_creator.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/v_creator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="18441" max-vertical-offset="25872">
+              <caret line="897" column="249" selection-start-line="897" selection-start-column="249" selection-end-line="897" selection-end-column="249" />
+=======
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+>>>>>>> 51ca29218a740bdd435b18bf3222dd61dec234c3
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="creator.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/creator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63604856" vertical-offset="5471" max-vertical-offset="6069">
+              <caret line="278" column="39" selection-start-line="278" selection-start-column="39" selection-end-line="278" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m_common.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/m_common.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="1071">
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+=======
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.75490195" vertical-offset="2598" max-vertical-offset="3210">
+              <caret line="204" column="45" selection-start-line="204" selection-start-column="45" selection-end-line="204" selection-end-column="45" />
+>>>>>>> 51ca29218a740bdd435b18bf3222dd61dec234c3
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/application/controllers/register.php" />
+        <option value="$PROJECT_DIR$/application/views/v_register.php" />
+        <option value="$PROJECT_DIR$/application/views/create_app/v_create_header.php" />
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/application/controllers/timeline.php" />
+        <option value="$PROJECT_DIR$/application/controllers/inbox.php" />
+        <option value="$PROJECT_DIR$/application/controllers/gallery.php" />
+        <option value="$PROJECT_DIR$/application/controllers/blog.php" />
+        <option value="$PROJECT_DIR$/application/models/m_create_app.php" />
+        <option value="$PROJECT_DIR$/application/views/create_app/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/create_app/template_section.php" />
+        <option value="$PROJECT_DIR$/application/views/create_app/v_dragable_creator.php" />
+        <option value="$PROJECT_DIR$/application/views/create_app/v_template_section.php" />
+        <option value="$PROJECT_DIR$/application/views/create_app/v_create_app.php" />
+        <option value="$PROJECT_DIR$/application/views/create_app/v_create_app_footer.php" />
+        <option value="$PROJECT_DIR$/application/controllers/create_app.php" />
+        <option value="$PROJECT_DIR$/application/views/create_app/v_platform_selection.php" />
+        <option value="$PROJECT_DIR$/application/views/create_app/v_create_app_header.php" />
+        <option value="$PROJECT_DIR$/app_creator_final/creator.html" />
+        <option value="$PROJECT_DIR$/application/views/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/header.php" />
+        <option value="$PROJECT_DIR$/application/views/v_blog.php" />
+        <option value="$PROJECT_DIR$/application/views/v_dashboard.php" />
+        <option value="$PROJECT_DIR$/application/views/v_gallery.php" />
+        <option value="$PROJECT_DIR$/application/views/v_inbox.php" />
+        <option value="$PROJECT_DIR$/application/views/v_timeline.php" />
+        <option value="$PROJECT_DIR$/application/views/create_app/v_category_selection.php" />
+        <option value="$PROJECT_DIR$/application/views/create_app/v_template_selection.php" />
+        <option value="$PROJECT_DIR$/application/models/m_creator.php" />
+        <option value="$PROJECT_DIR$/application/controllers/profile.php" />
+        <option value="$PROJECT_DIR$/application/views/v_profile.php" />
+        <option value="$PROJECT_DIR$/application/views/navbar.php" />
+        <option value="$PROJECT_DIR$/application/models/m_common.php" />
+        <option value="$PROJECT_DIR$/application/views/v_creator.php" />
+        <option value="$PROJECT_DIR$/application/controllers/creator.php" />
+=======
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/index.php" />
+>>>>>>> 51ca29218a740bdd435b18bf3222dd61dec234c3
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="41" />
+    <option name="y" value="-14" />
+    <option name="width" value="1335" />
+    <option name="height" value="792" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="create_app" />
+=======
+              <option name="myItemId" value="system" />
+>>>>>>> 51ca29218a740bdd435b18bf3222dd61dec234c3
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="143play" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+=======
+              <option name="myItemId" value="core" />
+>>>>>>> 51ca29218a740bdd435b18bf3222dd61dec234c3
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Installed_Programs\wamp\www\143play\public" />
+      <recent name="H:\Installed_Programs\wamp\www\143play\public\img" />
+      <recent name="H:\Installed_Programs\wamp\www\143play\public\fonts" />
+      <recent name="H:\Installed_Programs\wamp\www\143play\public\bootstrap\css" />
+      <recent name="H:\Installed_Programs\wamp\www\143play\application\views\create_app" />
+    </key>
+=======
+>>>>>>> 51ca29218a740bdd435b18bf3222dd61dec234c3
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecee7931-ec7e-4102-8bac-3f2c35d92cc7" name="Default" comment="" />
+      <created>1416698412198</created>
+      <option name="number" value="Default" />
+      <updated>1416698412198</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
+=======
+    <frame x="41" y="-14" width="1335" height="792" extended-state="7" />
+    <editor active="true" />
+>>>>>>> 51ca29218a740bdd435b18bf3222dd61dec234c3
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24182509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+>>>>>>> 51ca29218a740bdd435b18bf3222dd61dec234c3
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/application/controllers/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="901">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/css/bootstrap-theme.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/19_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.965338" vertical-offset="0" max-vertical-offset="1512">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/timeline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29116118" vertical-offset="0" max-vertical-offset="577">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/inbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29116118" vertical-offset="0" max-vertical-offset="577">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25476602" vertical-offset="0" max-vertical-offset="577">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/create_app/v_dragable_creator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7765958" vertical-offset="4035" max-vertical-offset="4599">
+          <caret line="213" column="39" selection-start-line="213" selection-start-column="39" selection-end-line="213" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/create_app/v_create_app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7079482" vertical-offset="0" max-vertical-offset="1344">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/invoice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="577">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/create_app/v_create_app_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2499">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33510637" vertical-offset="0" max-vertical-offset="1113">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/create_app/v_platform_selection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="1113">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/create_app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3656845" vertical-offset="63" max-vertical-offset="1701">
+          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/less/tab.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5712">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/json2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7182">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/m_create_app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10918544" vertical-offset="0" max-vertical-offset="577">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/my_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14558059" vertical-offset="0" max-vertical-offset="577">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/endless.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32828283" vertical-offset="67383" max-vertical-offset="153195">
+          <caret line="3218" column="19" selection-start-line="3218" selection-start-column="19" selection-end-line="3218" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_creator_final/creator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="218.4" vertical-offset="6552" max-vertical-offset="36981">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="319" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_creator_final/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.4" vertical-offset="29214" max-vertical-offset="29862">
+          <caret line="1416" column="0" selection-start-line="1339" selection-start-column="0" selection-end-line="1416" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_creator_final/create_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07446808" vertical-offset="1512" max-vertical-offset="20916">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29116118" vertical-offset="0" max-vertical-offset="577">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_creator_final/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40957448" vertical-offset="13902" max-vertical-offset="15519">
+          <caret line="673" column="0" selection-start-line="673" selection-start-column="0" selection-end-line="732" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_creator_final/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33510637" vertical-offset="9597" max-vertical-offset="11172">
+          <caret line="466" column="0" selection-start-line="466" selection-start-column="0" selection-end-line="525" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_creator_final/inbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9255319" vertical-offset="14514" max-vertical-offset="15162">
+          <caret line="716" column="0" selection-start-line="670" selection-start-column="1" selection-end-line="716" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_creator_final/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.1276596" vertical-offset="10374" max-vertical-offset="13440">
+          <caret line="578" column="57" selection-start-line="578" selection-start-column="57" selection-end-line="578" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_creator_final/timeline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7074468" vertical-offset="9282" max-vertical-offset="11067">
+          <caret line="461" column="0" selection-start-line="461" selection-start-column="0" selection-end-line="520" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1995">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6382979" vertical-offset="0" max-vertical-offset="1071">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18197574" vertical-offset="0" max-vertical-offset="3444">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_invoice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="577">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="13494" max-vertical-offset="17556">
+          <caret line="652" column="16" selection-start-line="652" selection-start-column="16" selection-end-line="652" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_timeline.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47517732" vertical-offset="3533" max-vertical-offset="4956">
+          <caret line="181" column="29" selection-start-line="181" selection-start-column="29" selection-end-line="181" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67021275" vertical-offset="17913" max-vertical-offset="19803">
+          <caret line="871" column="52" selection-start-line="871" selection-start-column="52" selection-end-line="871" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_inbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60638297" vertical-offset="7848" max-vertical-offset="9051">
+          <caret line="390" column="81" selection-start-line="390" selection-start-column="81" selection-end-line="390" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5372617" vertical-offset="3617" max-vertical-offset="5103">
+          <caret line="187" column="81" selection-start-line="187" selection-start-column="81" selection-end-line="187" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60638297" vertical-offset="8373" max-vertical-offset="9870">
+          <caret line="415" column="81" selection-start-line="415" selection-start-column="81" selection-end-line="415" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0478723" vertical-offset="0" max-vertical-offset="2583">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.090909" vertical-offset="5661" max-vertical-offset="12810">
+          <caret line="357" column="16" selection-start-line="357" selection-start-column="16" selection-end-line="357" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/create_app/v_create_app_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.933333" vertical-offset="116" max-vertical-offset="693">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/create_app/v_category_selection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3275563" vertical-offset="0" max-vertical-offset="1428">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/create_app/v_template_selection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43674177" vertical-offset="315" max-vertical-offset="1323">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10918544" vertical-offset="0" max-vertical-offset="1617">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.8297873" vertical-offset="0" max-vertical-offset="7707">
+          <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.81914896" vertical-offset="4914" max-vertical-offset="6594">
+          <caret line="212" column="17" selection-start-line="212" selection-start-column="17" selection-end-line="212" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/m_creator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59965336" vertical-offset="95" max-vertical-offset="672">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/m_common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="1071">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/v_creator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18441" max-vertical-offset="25872">
+          <caret line="897" column="249" selection-start-line="897" selection-start-column="249" selection-end-line="897" selection-end-column="249" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/creator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63604856" vertical-offset="5471" max-vertical-offset="6069">
+          <caret line="278" column="39" selection-start-line="278" selection-start-column="39" selection-end-line="278" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75490195" vertical-offset="2598" max-vertical-offset="3210">
+          <caret line="204" column="45" selection-start-line="204" selection-start-column="45" selection-end-line="204" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 51ca29218a740bdd435b18bf3222dd61dec234c3
+  </component>
+</project>
+

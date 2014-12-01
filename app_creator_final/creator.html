@@ -1,0 +1,1755 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>App Creator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Dropzone -->
+        <link href='css/dropzone/dropzone.css' rel="stylesheet"/>
+
+        <!-- Datatable -->
+        <link href="css/jquery.dataTables_themeroller.css" rel="stylesheet">
+
+        <!-- Pace -->
+        <link href="css/pace.css" rel="stylesheet">
+
+        <!-- Endless -->
+        <link href="css/endless.min.css" rel="stylesheet">
+        <link href="css/endless-skin.css" rel="stylesheet">
+
+    </head>
+
+    <body class="overflow-hidden">
+        <!-- Overlay Div -->
+        <div id="overlay" class="transparent"></div>
+
+        <a href="" id="theme-setting-icon"><i class="fa fa-cog fa-lg"></i></a>
+        <div id="theme-setting">
+            <div class="title">
+                <strong class="no-margin">Skin Color</strong>
+            </div>
+            <div class="theme-box">
+                <a class="theme-color" style="background:#323447" id="default"></a>
+                <a class="theme-color" style="background:#efefef" id="skin-1"></a>
+                <a class="theme-color" style="background:#a93922" id="skin-2"></a>
+                <a class="theme-color" style="background:#3e6b96" id="skin-3"></a>
+                <a class="theme-color" style="background:#635247" id="skin-4"></a>
+                <a class="theme-color" style="background:#3a3a3a" id="skin-5"></a>
+                <a class="theme-color" style="background:#495B6C" id="skin-6"></a>
+            </div>
+            <div class="title">
+                <strong class="no-margin">Sidebar Menu</strong>
+            </div>
+            <div class="theme-box">
+                <label class="label-checkbox">
+                    <input type="checkbox" checked id="fixedSidebar">
+                    <span class="custom-checkbox"></span>
+                    Fixed Sidebar
+                </label>
+            </div>
+        </div><!-- /theme-setting -->
+
+        <div id="wrapper" class="preload">
+            <div id="top-nav" class="skin-6 fixed">
+                <div class="brand">
+                    <span>App</span>
+                    <span class="text-toggle"> Creator</span>
+                </div><!-- /brand -->
+                <button type="button" class="navbar-toggle pull-left" id="sidebarToggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul class="nav-notification clearfix">
+                    <li style="background-color: #9ad268;">
+                        <a href="create_new.html"  style="color: #fff; font-weight: bolder;">
+                            <strong>CREATE</strong>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-envelope fa-lg"></i>
+                            <span class="notification-label bounceIn animation-delay4">7</span>
+                        </a>
+                        <ul class="dropdown-menu message dropdown-1">
+                            <li><a>You have 4 new unread messages</a></li>
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>John Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-check text-success"></i> 27m ago</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user2.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>Jane Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-check text-success"></i> 5hr ago</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>Bill Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-reply"></i> Yesterday</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user2.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>Baby Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-reply"></i> 9 Feb 2013</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a href="inbox.html">View all messages</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-bell fa-lg"></i>
+                            <span class="notification-label bounceIn animation-delay6">5</span>
+                        </a>
+                        <ul class="dropdown-menu notification dropdown-3">
+                            <li><a href="#">You have 5 new notifications</a></li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-warning">
+                                        <i class="fa fa-warning"></i>
+                                    </span>
+                                    <span class="m-left-xs">Server #2 not responding.</span>
+                                    <span class="time text-muted">Just now</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-success">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                    <span class="m-left-xs">New user registration.</span>
+                                    <span class="time text-muted">2m ago</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-danger">
+                                        <i class="fa fa-bolt"></i>
+                                    </span>
+                                    <span class="m-left-xs">Application error.</span>
+                                    <span class="time text-muted">5m ago</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-success">
+                                        <i class="fa fa-usd"></i>
+                                    </span>
+                                    <span class="m-left-xs">2 items sold.</span>
+                                    <span class="time text-muted">1hr ago</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-success">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                    <span class="m-left-xs">New user registration.</span>
+                                    <span class="time text-muted">1hr ago</span>
+                                </a>
+                            </li>
+                            <li><a href="#">View all notifications</a></li>
+                        </ul>
+                    </li>
+                    <li class="profile dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <strong>John Doe</strong>
+                            <span><i class="fa fa-chevron-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>John Doe</strong>
+                                        <p class="grey">John_Doe@email.com</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a tabindex="-1" href="profile.html" class="main-link"><i class="fa fa-edit fa-lg"></i> Edit profile</a></li>
+                            <li><a tabindex="-1" href="#" class="theme-setting"><i class="fa fa-cog fa-lg"></i> Setting</a></li>
+                            <li class="divider"></li>
+                            <li><a tabindex="-1" class="main-link logoutConfirm_open" href="#logoutConfirm"><i class="fa fa-lock fa-lg"></i> Log out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /top-nav-->
+
+            <aside class="fixed skin-6">
+                <div class="sidebar-inner scrollable-sidebar">
+                    <div class="size-toggle">
+                        <a class="btn btn-sm" id="sizeToggle">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <a class="btn btn-sm pull-right logoutConfirm_open"  href="#logoutConfirm">
+                            <i class="fa fa-power-off"></i>
+                        </a>
+                    </div><!-- /size-toggle -->
+                    <div class="user-block clearfix">
+                        <img src="img/user1.jpg" alt="User Avatar">
+                        <div class="detail">
+                            <strong>John Doe</strong>
+                            <ul class="list-inline">
+                                <li><a href="profile.html">Profile</a></li>
+                                <li><a href="#" class="no-margin">Settings</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- /user-block -->
+                    <div class="main-menu">
+                        <ul>
+                            <li>
+                                <a href="dashboard.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-desktop fa-lg"></i>
+                                    </span>
+                                    <span class="text">
+                                        Dashboard
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="creator.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-tasks fa-lg"></i>
+                                    </span>
+                                    <span class="text">
+                                        Creator
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="timeline.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-clock-o fa-lg"></i>
+                                    </span>
+                                    <span class="text">
+                                        Timeline
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-picture-o fa-lg"></i>
+                                    </span>
+                                    <span class="text">
+                                        Gallery
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="inbox.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-envelope fa-lg"></i>
+                                    </span>
+                                    <span class="text">
+                                        Inbox
+                                    </span>
+                                    <span class="badge badge-danger bounceIn animation-delay6">4</span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="blog.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-edit fa-lg"></i>
+                                    </span>
+                                    <span class="text">
+                                        Blog
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="invoice.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-book fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Invoice
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /main-menu -->
+                </div><!-- /sidebar-inner scrollable-sidebar -->
+            </aside>
+
+            <div id="main-container">
+                <div id="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li><i class="fa fa-home"></i><a href="index.html"> Home</a></li>
+                        <li class="active">Creator</li>
+                    </ul>
+                </div><!--breadcrumb-->
+                <ul class="tab-bar grey-tab">
+                    <li class="active">
+                        <a href="#apps" data-toggle="tab" style="padding: 10px 25px;">
+                            <span class="block text-center">
+                                <i class="fa fa-qrcode fa-2x"></i>
+                            </span>
+                            Apps
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#users" data-toggle="tab" style="padding: 10px 25px;">
+                            <span class="block text-center">
+                                <i class="fa fa-group fa-2x"></i>
+                            </span>
+                            Users
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#category" data-toggle="tab" style="padding: 10px 25px;">
+                            <span class="block text-center">
+                                <i class="fa fa-sitemap fa-2x"></i>
+                            </span>
+                            Category
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#platform" data-toggle="tab" style="padding: 10px 25px;">
+                            <span class="block text-center">
+                                <i class="fa fa-tablet fa-2x"></i>
+                            </span>
+                            Platform
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#template" data-toggle="tab" style="padding: 10px 25px;">
+                            <span class="block text-center">
+                                <i class="fa fa-tablet fa-2x"></i>
+                            </span>
+                            Template
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#creator" data-toggle="tab" style="padding: 10px 25px;">
+                            <span class="block text-center">
+                                <i class="fa fa-tablet fa-2x"></i>
+                            </span>
+                            Creator
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="padding-md">
+                    <div class="row">
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="apps">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="panel panel-overview fadeInUp animation-delay1">
+                                            <div class="overview-icon bg-warning">
+                                                <i class="fa fa-qrcode"></i>
+                                            </div>
+                                            <div class="overview-value">
+                                                <div class="h2">6</div>
+                                                <div class="text-muted">Apps</div>
+                                            </div>
+                                        </div><!--/ panel -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-4">
+                                        <div class="panel panel-overview fadeInUp animation-delay2">
+                                            <div class="overview-icon bg-success">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </div>
+                                            <div class="overview-value">
+                                                <div class="h2">0</div>
+                                                <div class="text-muted">Sales</div>
+                                            </div>
+                                        </div><!--/ panel -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-4">
+                                        <div class="panel panel-overview fadeInUp animation-delay3">
+                                            <div class="overview-icon bg-danger">
+                                                <i class="fa fa-usd"></i>
+                                            </div>
+                                            <div class="overview-value">
+                                                <div class="h2">$0</div>
+                                                <div class="text-muted">Incomes</div>
+                                            </div>
+                                        </div><!--/ panel -->
+                                    </div><!-- /.col -->
+                                </div><!-- /.row -->
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="panel panel-default">
+                                            <form class="form-horizontal form-border">
+                                                <div class="panel-heading">
+                                                    Edit Apps
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Name</label>
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control input-sm" placeholder="App Name EX. Entertainment only Editable" value="">
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Details</label>
+                                                        <div class="col-md-10">
+                                                            <textarea class="form-control" rows="3"></textarea>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2 control-label">Category</label>
+                                                        <div class="col-lg-10">
+                                                            <select class="form-control chzn-select">
+                                                                <option>Restaurant</option>
+                                                                <option>Education</option>
+                                                                <option>Ecommerce</option>
+                                                            </select>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2 control-label">Template</label>
+                                                        <div class="col-lg-10">
+                                                            <select class="form-control chzn-select">
+                                                                <option>Coffee Shop</option>
+                                                                <option>Fastfood</option>
+                                                                <option>Sushi</option>
+                                                                <option>Ice Cream Parlour</option>
+                                                            </select>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-lg-2">Image</label>
+                                                        <div class="col-lg-10">
+                                                            <div class="upload-file">
+                                                                <input type="file" id="upload-demo" class="upload-demo">
+                                                                <label data-title="Select file" for="upload-demo">
+                                                                    <span data-title="No file selected..."></span>
+                                                                </label>
+                                                            </div>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Price</label>
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control input-sm" placeholder="App Price" value="">
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Status</label>
+                                                        <div class="col-md-10">
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio" checked>
+                                                                <span class="custom-radio"></span>
+                                                                Published
+                                                            </label>
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio">
+                                                                <span class="custom-radio"></span>
+                                                                Unpublished
+                                                            </label>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <div class="text-right">
+                                                        <button class="btn btn-sm btn-success">Update</button>
+                                                        <button class="btn btn-sm btn-success" type="reset">Reset</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div><!-- /panel -->
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="panel panel-default table-responsive">
+                                            <div class="panel-heading">
+                                                All Apps
+                                                <span class="label label-danger pull-right">3 Items</span>
+                                            </div>
+                                            <table class="table table-striped" id="dataTable_allapps">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">Image</th>
+                                                        <th class="text-center">Name</th>
+                                                        <th class="text-center">Category</th>
+                                                        <th class="text-center">Price</th>
+                                                        <th class="text-center">Like</th>
+                                                        <th class="text-center">Status</th>
+                                                        <th class="text-center" style="width: 200px">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/1.png" width="60" height="60">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Coffeeshop
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restuarant
+                                                        </td>
+                                                        <td class="text-center">
+                                                            $5
+                                                        </td>
+                                                        <td class="text-center">
+                                                            10
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/3.png" width="60" height="60">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Fastfood
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restuarant
+                                                        </td>
+                                                        <td class="text-center">
+                                                            $6
+                                                        </td>
+                                                        <td class="text-center">
+                                                            12
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/4.png" width="60" height="60">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Sushi House
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restuarant
+                                                        </td>
+                                                        <td class="text-center">
+                                                            $4
+                                                        </td>
+                                                        <td class="text-center">
+                                                            12
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/5.png" width="60" height="60">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Primary School
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Education
+                                                        </td>
+                                                        <td class="text-center">
+                                                            $8
+                                                        </td>
+                                                        <td class="text-center">
+                                                            3
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/6.png" width="60" height="60">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Small Business
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Business
+                                                        </td>
+                                                        <td class="text-center">
+                                                            $6
+                                                        </td>
+                                                        <td class="text-center">
+                                                            1
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/7.png" width="60" height="60">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Football
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Sports
+                                                        </td>
+                                                        <td class="text-center">
+                                                            $3
+                                                        </td>
+                                                        <td class="text-center">
+                                                            8
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/19.png" width="60" height="60">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Ice Cream Parlour
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restaurant
+                                                        </td>
+                                                        <td class="text-center">
+                                                            $7
+                                                        </td>
+                                                        <td class="text-center">
+                                                            0
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!-- /panel -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /tab1 -->
+
+                            <div class="tab-pane fade" id="users">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="panel panel-default">
+                                            <form class="form-horizontal form-border">
+                                                <div class="panel-heading">
+                                                    Add Users
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Name</label>
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control input-sm" placeholder="User Name EX. John Doe" value="">
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Password</label>
+                                                        <div class="col-md-10">
+                                                            <input type="password" class="form-control input-sm" value="Password">
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Email</label>
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control input-sm" value="john_doe@email.com">
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-lg-2">Image</label>
+                                                        <div class="col-lg-10">
+                                                            <div class="upload-file">
+                                                                <input type="file" id="upload-demo" class="upload-demo">
+                                                                <label data-title="Select file" for="upload-demo">
+                                                                    <span data-title="No file selected..."></span>
+                                                                </label>
+                                                            </div>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2 control-label">Country</label>
+                                                        <div class="col-lg-10">
+                                                            <select class="form-control chzn-select">
+                                                                <option>Alabama</option>
+                                                                <option>Alaska</option>
+                                                                <option>Arizona</option>
+                                                                <option>Arkansas</option>
+                                                                <option>California</option>
+                                                                <option>Colorado</option>
+                                                                <option>Connecticut</option>
+                                                                <option>Delaware</option>
+                                                                <option>District Of Columbia</option>
+                                                                <option>Florida</option>
+                                                                <option>Georgia</option>
+                                                                <option>Hawaii</option>
+                                                                <option>Idaho</option>
+                                                                <option>Illinois</option>
+                                                                <option>Indiana</option>
+                                                                <option>Iowa</option>
+                                                                <option>Kansas</option>
+                                                                <option>Kentucky</option>
+                                                                <option>Louisiana</option>
+                                                                <option>Maine</option>
+                                                                <option>Maryland</option>
+                                                                <option>Massachusetts</option>
+                                                                <option>Michigan</option>
+                                                                <option>Minnesota</option>
+                                                                <option>Mississippi</option>
+                                                                <option>Missouri</option>
+                                                                <option>Montana</option>
+                                                                <option>Nebraska</option>
+                                                                <option>Nevada</option>
+                                                                <option>New Hampshire</option>
+                                                                <option>New Jersey</option>
+                                                                <option>New Mexico</option>
+                                                                <option>New York</option>
+                                                                <option>North Carolina</option>
+                                                                <option>North Dakota</option>
+                                                                <option>Ohio</option>
+                                                                <option>Oklahoma</option>
+                                                                <option>Oregon</option>
+                                                                <option>Pennsylvania</option>
+                                                                <option>Rhode Island</option>
+                                                                <option>South Carolina</option>
+                                                                <option>South Dakota</option>
+                                                                <option>Tennessee</option>
+                                                                <option>Texas</option>
+                                                                <option>Utah</option>
+                                                                <option>Vermont</option>
+                                                                <option>Virginia</option>
+                                                                <option>Washington</option>
+                                                                <option>West Virginia</option>
+                                                                <option>Wisconsin</option>
+                                                                <option>Wyoming</option>
+                                                            </select>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Phone</label>
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control input-sm">
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">About</label>
+                                                        <div class="col-md-10">
+                                                            <textarea class="form-control" rows="3"></textarea>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <div class="text-right">
+                                                        <button class="btn btn-sm btn-success">Add</button>
+                                                        <button class="btn btn-sm btn-success" type="reset">Clear</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div><!-- /panel -->
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="panel panel-default table-responsive">
+                                            <div class="panel-heading">
+                                                All Users
+                                                <span class="label label-danger pull-right">3 User</span>
+                                            </div>
+                                            <table class="table table-striped" id="dataTable_allusers">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">Image</th>
+                                                        <th class="text-center">Name</th>
+                                                        <th class="text-center">E-mail</th>
+                                                        <th class="text-center">Phone</th>
+                                                        <th class="text-center">Country</th>
+                                                        <th class="text-center" style="width: 200px">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/user1.jpg" width="80" height="80">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Jhon Doe
+                                                        </td>
+                                                        <td class="text-center">
+                                                            John_Doe@email.com
+                                                        </td>
+                                                        <td class="text-center">
+                                                            +8801911000000
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Bangladesh
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/user111.jpg" width="80" height="80">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Bill Doe
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Bill_Doe@email.com
+                                                        </td>
+                                                        <td class="text-center">
+                                                            +8801911000000
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Bangladesh
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!-- /panel -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /tab2 -->
+
+                            <div class="tab-pane fade" id="category">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="panel panel-default">
+                                            <form class="form-horizontal form-border">
+                                                <div class="panel-heading">
+                                                    Add Category
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Name</label>
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control input-sm" placeholder="Category Name EX. Restaurant" value="">
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Details</label>
+                                                        <div class="col-md-10">
+                                                            <textarea class="form-control" rows="3"></textarea>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-lg-2">Image</label>
+                                                        <div class="col-lg-10">
+                                                            <div class="upload-file">
+                                                                <input type="file" id="upload-demo" class="upload-demo">
+                                                                <label data-title="Select file" for="upload-demo">
+                                                                    <span data-title="No file selected..."></span>
+                                                                </label>
+                                                            </div>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Status</label>
+                                                        <div class="col-md-10">
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio" checked>
+                                                                <span class="custom-radio"></span>
+                                                                Published
+                                                            </label>
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio">
+                                                                <span class="custom-radio"></span>
+                                                                Unpublished
+                                                            </label>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <div class="text-right">
+                                                        <button class="btn btn-sm btn-success">Add</button>
+                                                        <button class="btn btn-sm btn-success" type="reset">Clear</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div><!-- /panel -->
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="panel panel-default table-responsive">
+                                            <div class="panel-heading">
+                                                All Category
+                                                <span class="label label-danger pull-right">3 Category</span>
+                                            </div>
+                                            <table class="table table-striped" id="dataTable_allcategory">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">Image</th>
+                                                        <th class="text-center">Name</th>
+                                                        <th class="text-center">Status</th>
+                                                        <th class="text-center" style="width: 200px">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/2.png" width="80" height="80">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restaurant
+                                                        </td>
+
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/5.png" width="80" height="80">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Education
+                                                        </td>
+
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/8.png" width="80" height="80">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Ecommerce
+                                                        </td>
+
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!-- /panel -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /tab3 -->
+
+                            <div class="tab-pane fade" id="platform">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="panel panel-default">
+                                            <form class="form-horizontal form-border">
+                                                <div class="panel-heading">
+                                                    Add Platform
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Name</label>
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control input-sm" placeholder="Platform Name EX. Android" value="">
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Status</label>
+                                                        <div class="col-md-10">
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio" checked>
+                                                                <span class="custom-radio"></span>
+                                                                Published
+                                                            </label>
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio">
+                                                                <span class="custom-radio"></span>
+                                                                Unpublished
+                                                            </label>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <div class="text-right">
+                                                        <button class="btn btn-sm btn-success">Add</button>
+                                                        <button class="btn btn-sm btn-success" type="reset">Clear</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div><!-- /panel -->
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="panel panel-default table-responsive">
+                                            <div class="panel-heading">
+                                                All Platform
+                                                <span class="label label-danger pull-right">3 Platform</span>
+                                            </div>
+                                            <table class="table table-striped" id="dataTable_allplatform">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">Name</th>
+                                                        <th class="text-center">Status</th>
+                                                        <th class="text-center" style="width: 200px">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Android
+                                                        </td>
+
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            iPhone
+                                                        </td>
+
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            windows
+                                                        </td>
+
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!-- /panel -->
+                                    </div><!-- /col -->
+                                </div><!-- /row1 -->
+
+                                <div class="seperator"></div><div class="seperator"></div>
+                                <div class="seperator"></div><div class="seperator"></div>
+                                
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="panel panel-default">
+                                            <form class="form-horizontal form-border">
+                                                <div class="panel-heading">
+                                                    Add Category Based Platform
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2 control-label">Category</label>
+                                                        <div class="col-lg-10">
+                                                            <select class="form-control chzn-select">
+                                                                <option>Restaurant</option>
+                                                                <option>Education</option>
+                                                                <option>Ecommerce</option>
+                                                            </select>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2 control-label">Platform</label>
+                                                        <div class="col-lg-10">
+                                                            <select class="form-control chzn-select">
+                                                                <option>Android</option>
+                                                                <option>iPhone</option>
+                                                                <option>Windows</option>
+                                                            </select>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-lg-2">Image</label>
+                                                        <div class="col-lg-10">
+                                                            <div class="upload-file">
+                                                                <input type="file" id="upload-demo" class="upload-demo">
+                                                                <label data-title="Select file" for="upload-demo">
+                                                                    <span data-title="Single file selection..."></span>
+                                                                </label>
+                                                            </div>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Status</label>
+                                                        <div class="col-md-10">
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio" checked>
+                                                                <span class="custom-radio"></span>
+                                                                Published
+                                                            </label>
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio">
+                                                                <span class="custom-radio"></span>
+                                                                Unpublished
+                                                            </label>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <div class="text-right">
+                                                        <button class="btn btn-sm btn-success">Add</button>
+                                                        <button class="btn btn-sm btn-success" type="reset">Clear</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div><!-- /panel -->
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="panel panel-default table-responsive">
+                                            <div class="panel-heading">
+                                                All Category Based Platform
+                                                <span class="label label-danger pull-right">3 Platform</span>
+                                            </div>
+                                            <table class="table table-striped" id="dataTable_cbp">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">Image</th>
+                                                        <th class="text-center">Category</th>
+                                                        <th class="text-center">Platform</th>
+                                                        <th class="text-center">Status</th>
+                                                        <th class="text-center" style="width: 200px">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/android1.png" width="80" height="120">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restaurant
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Android
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/iphone1.png" width="80" height="120">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restaurant
+                                                        </td>
+                                                        <td class="text-center">
+                                                            iPhone
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/windows-phone2.png" width="80" height="120">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restaurant
+                                                        </td>
+                                                        <td class="text-center">
+                                                            windows
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!-- /panel -->
+                                    </div><!-- /col -->
+                                </div><!-- /row 2-->
+                            </div><!-- /tab4 -->
+
+                            <div class="tab-pane fade" id="template">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="panel panel-default">
+                                            <form class="form-horizontal form-border">
+                                                <div class="panel-heading">
+                                                    Add Template
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Name</label>
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control input-sm" placeholder="Template name EX. Coffee Shop" value="">
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Details</label>
+                                                        <div class="col-md-10">
+                                                            <textarea class="form-control" rows="3"></textarea>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2 control-label">Category</label>
+                                                        <div class="col-lg-10">
+                                                            <select class="form-control chzn-select">
+                                                                <option>Restaurant</option>
+                                                                <option>Education</option>
+                                                                <option>Ecommerce</option>
+                                                            </select>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-lg-2">Image</label>
+                                                        <div class="col-lg-10">
+                                                            <div class="upload-file">
+                                                                <input type="file" id="upload-demo" class="upload-demo">
+                                                                <label data-title="Select file" for="upload-demo">
+                                                                    <span data-title="No file selected..."></span>
+                                                                </label>
+                                                            </div>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Status</label>
+                                                        <div class="col-md-10">
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio" checked>
+                                                                <span class="custom-radio"></span>
+                                                                Published
+                                                            </label>
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio">
+                                                                <span class="custom-radio"></span>
+                                                                Unpublished
+                                                            </label>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <div class="text-right">
+                                                        <button class="btn btn-sm btn-success">Update</button>
+                                                        <button class="btn btn-sm btn-success" type="reset">Reset</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div><!-- /panel -->
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="panel panel-default table-responsive">
+                                            <div class="panel-heading">
+                                                All Templates
+                                                <span class="label label-danger pull-right">3 Items</span>
+                                            </div>
+                                            <table class="table table-striped" id="dataTable_alltemplate">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">Image</th>
+                                                        <th class="text-center">Name</th>
+                                                        <th class="text-center">Category</th>
+                                                        <th class="text-center">Status</th>
+                                                        <th class="text-center" style="width: 200px">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/3.png" width="80" height="120">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Fastfood
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restuarant
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/19.png" width="80" height="120">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Ice Cream Parlour
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restuarant
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/4.png" width="80" height="120">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Sushi House
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restuarant
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/1.png" width="80" height="120">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Coffeeshop
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restuarant
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!-- /panel -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /tab5 -->
+
+                            <div class="tab-pane fade" id="creator">
+                                <div class="row">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            Add Creator elements
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="col-md-6">
+                                                <fieldset class="form-horizontal form-border">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Name</label>
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control input-sm" placeholder="App name EX. CoffeeShop" value="">
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2 control-label">Category</label>
+                                                        <div class="col-lg-10">
+                                                            <select class="form-control chzn-select">
+                                                                <option>Restaurant</option>
+                                                                <option>Education</option>
+                                                                <option>Ecommerce</option>
+                                                            </select>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-lg-2">Logo</label>
+                                                        <div class="col-lg-10">
+                                                            <form action="." class="dropzone">
+                                                                <div class="fallback">
+                                                                    <input name="file" type="file" multiple />
+                                                                </div>
+                                                            </form>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                </fieldset>
+                                            </div><!-- /.col -->
+                                            <div class="col-md-6">
+                                                <fieldset class="form-horizontal form-border">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-lg-2">Background</label>
+                                                        <div class="col-lg-10">
+                                                            <div class="upload-file">
+                                                                <input type="file" id="upload-demo" class="upload-demo">
+                                                                <label data-title="Select file" for="upload-demo">
+                                                                    <span data-title="Single File Selection..."></span>
+                                                                </label>
+                                                            </div>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2 control-label">Template</label>
+                                                        <div class="col-lg-10">
+                                                            <select class="form-control chzn-select">
+                                                                <option>Coffee Shop</option>
+                                                                <option>Fastfood</option>
+                                                                <option>Sushi</option>
+                                                            </select>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-lg-2">Menu</label>
+                                                        <div class="col-lg-10">
+                                                            <form action="." class="dropzone">
+                                                                <div class="fallback">
+                                                                    <input name="file" type="file" multiple />
+                                                                </div>
+                                                            </form>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                </fieldset>
+                                            </div><!-- /.col -->
+                                        </div><!-- /panel-body -->
+                                        <div class="panel-footer">
+                                            <div class="text-right">
+                                                <button class="btn btn-sm btn-success">Update</button>
+                                                <button class="btn btn-sm btn-success" type="reset">Reset</button>
+                                            </div>
+                                        </div>
+                                    </div><!-- /panel -->
+                                </div><!-- /.row -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="panel panel-default table-responsive">
+                                            <div class="panel-heading">
+                                                All Elements
+                                                <span class="label label-danger pull-right">3 Items</span>
+                                            </div>
+                                            <table class="table table-striped" id="dataTable_elements">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">App Name</th>
+                                                        <th class="text-center">Category</th>
+                                                        <th class="text-center">Template</th>
+                                                        <th class="text-center">Background</th>
+                                                        <th class="text-center">Logo</th>
+                                                        <th class="text-center">Menu</th>
+                                                        <th class="text-center">Status</th>
+                                                        <th class="text-center" style="width: 200px">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Burger House
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restuarant
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Fastfood
+                                                        </td>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="background.jpg" height="100" width="100">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#logo" role="button" data-toggle="modal" class="btn btn-sm btn-info">Logo</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#menu" role="button" data-toggle="modal" class="btn btn-sm btn-info">Menu</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Ice Cream Parlour
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Restuarant
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Ice Cream Parlour
+                                                        </td>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="background1.jpg" height="100" width="100">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#logo" role="button" data-toggle="modal" class="btn btn-sm btn-info">Logo</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#menu" role="button" data-toggle="modal" class="btn btn-sm btn-info">Menu</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!-- /panel -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /tab6 -->
+
+                        </div><!-- /tab-content -->
+                    </div><!-- /.row -->
+                </div><!-- /.padding-md -->
+            </div><!-- /main-container -->
+
+            <!--Modal for logo-->
+            <div class="modal fade" id="logo">
+                <div class="modal-dialog" style="width: auto; text-align: center;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4>Modal header</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img alt="Product Image" src="elements/logo_1.png" width="180">
+                            <img alt="Product Image" src="elements/logo_2.png" width="180">
+                            <img alt="Product Image" src="elements/logo_3.png" width="180">
+                            <img alt="Product Image" src="elements/logo_4.png" width="180">
+                            <img alt="Product Image" src="elements/logo_5.png" width="180">
+                            <img alt="Product Image" src="elements/logo_6.png" width="180">
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-sm btn-success" data-dismiss="modal" aria-hidden="true">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+            <!--Modal for menu-->
+            <div class="modal fade" id="menu">
+                <div class="modal-dialog" style="width: auto; text-align: center;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4>Modal header</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img alt="Product Image" src="elements/menu_1.png" width="180" style="padding: 5px;">
+                            <img alt="Product Image" src="elements/menu_2.png" width="180" style="padding: 5px;">
+                            <img alt="Product Image" src="elements/menu_3.png" width="180" style="padding: 5px;">
+                            <img alt="Product Image" src="elements/menu_4.png" width="180" style="padding: 5px;">
+                            <img alt="Product Image" src="elements/menu_5.png" width="180" style="padding: 5px;">
+                            <img alt="Product Image" src="elements/menu_6.png" width="180" style="padding: 5px;">
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-sm btn-success" data-dismiss="modal" aria-hidden="true">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+        </div><!-- /wrapper -->
+
+        <a href="" id="scroll-to-top" class="hidden-print"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- Logout confirmation -->
+        <div class="custom-popup width-100" id="logoutConfirm">
+            <div class="padding-md">
+                <h4 class="m-top-none"> Do you want to logout?</h4>
+            </div>
+
+            <div class="text-center">
+                <a class="btn btn-success m-right-sm" href="login.html">Logout</a>
+                <a class="btn btn-danger logoutConfirm_close">Cancel</a>
+            </div>
+        </div>
+
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+
+        <!-- Jquery -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- holder -->
+        <script src='js/uncompressed/holder.js'></script>
+
+        <!-- Dropzone -->
+        <script src='js/dropzone.min.js'></script>
+
+        <!-- Modernizr -->
+        <script src='js/modernizr.min.js'></script>
+
+        <!-- Pace -->
+        <script src='js/pace.min.js'></script>
+
+        <!-- Popup Overlay -->
+        <script src='js/jquery.popupoverlay.min.js'></script>
+
+        <!-- Slimscroll -->
+        <script src='js/jquery.slimscroll.min.js'></script>
+
+        <!-- Cookie -->
+        <script src='js/jquery.cookie.min.js'></script>
+
+        <!-- Endless -->
+        <script src="js/endless/endless.js"></script>
+
+        <!-- Datatable -->
+        <script src='js/jquery.dataTables.min.js'></script>
+
+        <script>
+            $(function() {
+                $('#dataTable_allapps').dataTable({
+                    "bJQueryUI": true,
+                    "sPaginationType": "full_numbers"
+                });
+                $('#dataTable_allusers').dataTable({
+                    "bJQueryUI": true,
+                    "sPaginationType": "full_numbers"
+                });
+                $('#dataTable_allcategory').dataTable({
+                    "bJQueryUI": true,
+                    "sPaginationType": "full_numbers"
+                });
+                $('#dataTable_allplatform').dataTable({
+                    "bJQueryUI": true,
+                    "sPaginationType": "full_numbers"
+                });
+                $('#dataTable_cbp').dataTable({
+                    "bJQueryUI": true,
+                    "sPaginationType": "full_numbers"
+                });
+                $('#dataTable_alltemplate').dataTable({
+                    "bJQueryUI": true,
+                    "sPaginationType": "full_numbers"
+                });
+                $('#dataTable_elements').dataTable({
+                    "bJQueryUI": true,
+                    "sPaginationType": "full_numbers"
+                });
+
+                $('#chk-all').click(function() {
+                    if ($(this).is(':checked')) {
+                        $('#responsiveTable').find('.chk-row').each(function() {
+                            $(this).prop('checked', true);
+                            $(this).parent().parent().parent().addClass('selected');
+                        });
+                    }
+                    else {
+                        $('#responsiveTable').find('.chk-row').each(function() {
+                            $(this).prop('checked', false);
+                            $(this).parent().parent().parent().removeClass('selected');
+                        });
+                    }
+                });
+            });
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>App Creator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Datatable -->
+        <link href="css/jquery.dataTables_themeroller.css" rel="stylesheet">
+
+        <!-- Pace -->
+        <link href="css/pace.css" rel="stylesheet">
+
+        <!-- Endless -->
+        <link href="css/endless.min.css" rel="stylesheet">
+        <link href="css/endless-skin.css" rel="stylesheet">
+
+    </head>
+
+    <body class="overflow-hidden">
+        <!-- Overlay Div -->
+        <div id="overlay" class="transparent"></div>
+
+        <a href="" id="theme-setting-icon"><i class="fa fa-cog fa-lg"></i></a>
+        <div id="theme-setting">
+            <div class="title">
+                <strong class="no-margin">Skin Color</strong>
+            </div>
+            <div class="theme-box">
+                <a class="theme-color" style="background:#323447" id="default"></a>
+                <a class="theme-color" style="background:#efefef" id="skin-1"></a>
+                <a class="theme-color" style="background:#a93922" id="skin-2"></a>
+                <a class="theme-color" style="background:#3e6b96" id="skin-3"></a>
+                <a class="theme-color" style="background:#635247" id="skin-4"></a>
+                <a class="theme-color" style="background:#3a3a3a" id="skin-5"></a>
+                <a class="theme-color" style="background:#495B6C" id="skin-6"></a>
+            </div>
+            <div class="title">
+                <strong class="no-margin">Sidebar Menu</strong>
+            </div>
+            <div class="theme-box">
+                <label class="label-checkbox">
+                    <input type="checkbox" checked id="fixedSidebar">
+                    <span class="custom-checkbox"></span>
+                    Fixed Sidebar
+                </label>
+            </div>
+        </div><!-- /theme-setting -->
+
+        <div id="wrapper" class="preload">
+            <div id="top-nav" class="skin-6 fixed">
+                <div class="brand">
+                    <span>App</span>
+                    <span class="text-toggle"> Creator</span>
+                </div><!-- /brand -->
+                <button type="button" class="navbar-toggle pull-left" id="sidebarToggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul class="nav-notification clearfix">
+                    <li style="background-color: #9ad268;">
+                        <a href="create_new.html"  style="color: #fff; font-weight: bolder;">
+                            <strong>CREATE</strong>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-envelope fa-lg"></i>
+                            <span class="notification-label bounceIn animation-delay4">7</span>
+                        </a>
+                        <ul class="dropdown-menu message dropdown-1">
+                            <li><a>You have 4 new unread messages</a></li>					  
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user1.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>John Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-check text-success"></i> 27m ago</small>
+                                    </div>
+                                </a>	
+                            </li>
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user111.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>Jane Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-check text-success"></i> 5hr ago</small>
+                                    </div>
+                                </a>	
+                            </li>
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user11.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>Bill Doe</strong>
+                                        <p class="no-margin">
+                                            Lorem ipsum dolor sit amet...
+                                        </p>
+                                        <small class="text-muted"><i class="fa fa-reply"></i> Yesterday</small>
+                                    </div>
+                                </a>	
+                            </li>
+                            <li><a href="inbox.html">View all messages</a></li>					  
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-bell fa-lg"></i>
+                            <span class="notification-label bounceIn animation-delay6">5</span>
+                        </a>
+                        <ul class="dropdown-menu notification dropdown-3">
+                            <li><a href="#">You have 5 new notifications</a></li>					  
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-warning">
+                                        <i class="fa fa-warning"></i>
+                                    </span>
+                                    <span class="m-left-xs">Server #2 not responding.</span>
+                                    <span class="time text-muted">Just now</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-success">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                    <span class="m-left-xs">New user registration.</span>
+                                    <span class="time text-muted">2m ago</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-danger">
+                                        <i class="fa fa-bolt"></i>
+                                    </span>
+                                    <span class="m-left-xs">Application error.</span>
+                                    <span class="time text-muted">5m ago</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="notification-icon bg-success">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                    <span class="m-left-xs">New user registration.</span>
+                                    <span class="time text-muted">1hr ago</span>
+                                </a>
+                            </li>
+                            <li><a href="#">View all notifications</a></li>					  
+                        </ul>
+                    </li>
+                    <li class="profile dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <strong>John Doe</strong>
+                            <span><i class="fa fa-chevron-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="clearfix" href="#">
+                                    <img src="img/user1.jpg" alt="User Avatar">
+                                    <div class="detail">
+                                        <strong>John Doe</strong>
+                                        <p class="grey">John_Doe@email.com</p> 
+                                    </div>
+                                </a>
+                            </li>
+                            <li><a tabindex="-1" href="profile.html" class="main-link"><i class="fa fa-edit fa-lg"></i> Edit profile</a></li>
+                            <li><a tabindex="-1" href="#" class="theme-setting"><i class="fa fa-cog fa-lg"></i> Setting</a></li>
+                            <li class="divider"></li>
+                            <li><a tabindex="-1" class="main-link logoutConfirm_open" href="#logoutConfirm"><i class="fa fa-lock fa-lg"></i> Log out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /top-nav-->
+
+            <aside class="fixed skin-6">
+                <div class="sidebar-inner scrollable-sidebar">
+                    <div class="size-toggle">
+                        <a class="btn btn-sm" id="sizeToggle">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <a class="btn btn-sm pull-right logoutConfirm_open"  href="#logoutConfirm">
+                            <i class="fa fa-power-off"></i>
+                        </a>
+                    </div><!-- /size-toggle -->	
+                    <div class="user-block clearfix">
+                        <img src="img/user1.jpg" alt="User Avatar">
+                        <div class="detail">
+                            <strong>John Doe</strong>
+                            <ul class="list-inline">
+                                <li><a href="profile.html">Profile</a></li>
+                                <li><a href="#" class="no-margin">Settings</a></li>
+                            </ul>
+                        </div>
+                    </div><!-- /user-block -->
+                    <div class="main-menu">
+                        <ul>
+                            <li>
+                                <a href="dashboard.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-desktop fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Dashboard
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="creator.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-tasks fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Creator
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="timeline.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-clock-o fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Timeline
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-picture-o fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Gallery
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="inbox.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-envelope fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Inbox
+                                    </span>
+                                    <span class="badge badge-danger bounceIn animation-delay6">4</span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="blog.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-edit fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Blog
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="invoice.html">
+                                    <span class="menu-icon">
+                                        <i class="fa fa-book fa-lg"></i> 
+                                    </span>
+                                    <span class="text">
+                                        Invoice
+                                    </span>
+                                    <span class="menu-hover"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /main-menu -->
+                </div><!-- /sidebar-inner scrollable-sidebar -->
+            </aside>
+
+            <div id="main-container">
+                <div id="breadcrumb">
+                    <ul class="breadcrumb">
+                        <li><i class="fa fa-home"></i><a href="index.html"> Home</a></li>	 
+                        <li class="active">Blog</li>	 
+                    </ul>
+                </div><!--breadcrumb-->
+                <ul class="tab-bar grey-tab">
+                    <li class="active">
+                        <a href="#allblog" data-toggle="tab" style="padding: 10px 25px;">
+                            <span class="block text-center">
+                                <i class="fa fa-qrcode fa-2x"></i> 
+                            </span>
+                            All Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#overview" data-toggle="tab" style="padding: 10px 25px;">
+                            <span class="block text-center">
+                                <i class="fa fa-qrcode fa-2x"></i> 
+                            </span>
+                            Overview
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#editblog" data-toggle="tab" style="padding: 10px 25px;">
+                            <span class="block text-center">
+                                <i class="fa fa-group fa-2x"></i> 
+                            </span>
+                            Edit Blog
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="padding-md">
+                    <div class="row">
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="allblog">
+                                <div class="row">
+                                    <div class="col-md-11">	
+                                        <h3 class="headline m-top-md">
+                                            Welcome To Our Blog
+                                            <span class="line"></span>
+                                        </h3>
+                                        <div class="row">	
+                                            <div class="col-md-8">
+                                                <div class="panel blog-container">
+                                                    <div class="panel-body">
+                                                        <a class="image-wrapper image-zoom" href="img/blog1.png">
+                                                            <img src="img/blog1.png" alt="Photo of Blog">
+                                                            <div class="image-overlay"></div>	
+                                                        </a>
+
+                                                        <h4>Does Your Mobile App Even Stand a Chance</h4>
+                                                        <small class="text-muted">By <a href="#"><strong> John Doe</strong></a> |  Post on Aug 15, 2014  | 3 comments</small>
+                                                        <p class="m-top-sm m-bottom-sm">
+                                                           Your mobile app stinks. This is something most people won’t tell you. Your customers won’t tell you, your employees won’t tell you and your friends won’t tell you. It’s up to you to understand the components of a mobile app that make it stand out. Rather, forget standing out. You need to understand the few areas that make your app bomb from the start. 
+                                                        </p>
+                                                        <a href="#singlepost" role="button" data-toggle="modal" class="btn btn-sm btn-info"  style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Continue Reading</a>
+                                                        <span class="post-like text-muted tooltip-test" data-toggle="tooltip" data-original-title="I like this post!">
+                                                            <i class="fa fa-heart"></i> <span class="like-count">8</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="panel blog-container">
+                                                    <div class="panel-body">
+                                                        <div class="image-wrapper">
+                                                            <a class="image-wrapper image-zoom" href="img/blog2.png">
+                                                                <img src="img/blog2.png" alt="Photo of Blog">
+                                                                <div class="image-overlay"></div>	
+                                                            </a>
+                                                        </div>
+
+                                                        <h4>20 Content Ideas for When You Make a Mobile App</h4>
+                                                        <small class="text-muted">By <a href="#"><strong> Admin</strong></a> |  Post on Oct 21, 2014  | 4 comments</small>
+
+                                                        <p class="m-top-sm m-bottom-sm">
+                                                            So you make a mobile app, share it with your customers and now you want to figure out how to fill it with useful content that people find interesting. It all depends on what type of product or service you’re selling. If you want people to come to your band’s shows then you need to share loads of media such as music and videos. If you are trying to sell your auto repair service then plenty of reviews and testimonials work nicely. 
+                                                        </p>
+                                                        <a href="#singlepost" role="button" data-toggle="modal" class="btn btn-sm btn-info"  style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Continue Reading</a>
+                                                        <span class="post-like text-muted tooltip-test" data-toggle="tooltip" data-original-title="I like this post!">
+                                                            <i class="fa fa-heart"></i> <span class="like-count">12</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+                                                <ul class="pagination pagination-split m-bottom-md">
+                                                    <li><a href="#">Previous</a></li>
+                                                    <li class="active"><a href="#">1</a></li>
+                                                    <li><a href="#">2</a></li>
+                                                    <li><a href="#">3</a></li>
+                                                    <li><a href="#">4</a></li>
+                                                    <li><a href="#">5</a></li>
+                                                    <li><a href="#">6</a></li>
+                                                    <li><a href="#">7</a></li>
+                                                    <li><a href="#">8</a></li>
+                                                    <li><a href="#">9</a></li>
+                                                    <li><a href="#">Next</a></li>
+                                                </ul>
+                                            </div><!-- /.col -->
+                                            <div class="col-md-4">
+                                                <h4 class="headline">
+                                                    POPULAR POST
+                                                    <span class="line"></span>
+                                                </h4>
+                                                <div class="media popular-post">
+                                                    <a class="pull-left" href="single_post.html">
+                                                        <img src="img/blog2.png" alt="Popular Post">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        20 Content Ideas for When You Make a Mobile App
+                                                    </div>
+                                                </div>
+                                                <div class="media popular-post">
+                                                    <a class="pull-left" href="single_post.html">
+                                                        <img src="img/blog6.png" alt="Popular Post">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        6 Ways to Promote Your Mobile App on Facebook
+                                                    </div>
+                                                </div>
+                                                <div class="media popular-post">
+                                                    <a class="pull-left" href="single_post.html">
+                                                        <img src="img/blog1.png" alt="Popular Post">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        Does Your Mobile App Even Stand a Chance
+                                                    </div>
+                                                </div>
+                                                <h4 class="headline">
+                                                    CATEGORY
+                                                    <span class="line"></span>
+                                                </h4>
+                                                <ul class="category">
+                                                    <li><a href="#"><i class="fa fa-chevron-right"></i> Features</a></li>
+                                                    <li><a href="#"><i class="fa fa-chevron-right"></i> Pricing</a></li>
+                                                    <li><a href="#"><i class="fa fa-chevron-right"></i> Social Media</a></li>
+                                                    <li><a href="#"><i class="fa fa-chevron-right"></i> Reseller</a></li>
+                                                    <li><a href="#"><i class="fa fa-chevron-right"></i> Ideas</a></li>
+                                                </ul>
+                                                <h4 class="headline">
+                                                    ABOUT THE BLOG
+                                                    <span class="line"></span>
+                                                </h4>
+                                                <p>
+                                                    App Creator has a blog which is the playground for all creators to share their thinking with others. 
+                                                </p>
+                                                <h4 class="headline">
+                                                    PHOTO STREAM
+                                                    <span class="line"></span>
+                                                </h4>
+                                                <ul class="photo-stream">
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="img/blog1.png" alt="Photo Stream">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="img/blog2.png" alt="Photo Stream">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="img/blog3.jpg" alt="Photo Stream">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="img/blog4.jpg" alt="Photo Stream">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="img/blog5.jpg" alt="Photo Stream">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="img/blog6.png" alt="Photo Stream">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="img/blog7.png" alt="Photo Stream">
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <img src="img/blog8.png" alt="Photo Stream">
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- /.col -->
+                                        </div><!-- /.row -->
+                                    </div><!-- /.col -->
+                                </div><!-- /row -->
+                            </div><!-- /tab1 -->
+
+                            <div class="tab-pane fade" id="overview">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="panel panel-overview fadeInUp animation-delay1">
+                                            <div class="overview-icon bg-warning">
+                                                <i class="fa fa-qrcode"></i>
+                                            </div>
+                                            <div class="overview-value">
+                                                <div class="h2">8</div>
+                                                <div class="text-muted">Blog</div>
+                                            </div>
+                                        </div><!--/ panel -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-4">
+                                        <div class="panel panel-overview fadeInUp animation-delay2">
+                                            <div class="overview-icon bg-success">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </div>
+                                            <div class="overview-value">
+                                                <div class="h2">3</div>
+                                                <div class="text-muted">Blogger</div>
+                                            </div>
+                                        </div><!--/ panel -->
+                                    </div><!-- /.col -->
+                                    <div class="col-md-4">
+                                        <div class="panel panel-overview fadeInUp animation-delay3">
+                                            <div class="overview-icon bg-danger">
+                                                <i class="fa fa-usd"></i>
+                                            </div>
+                                            <div class="overview-value">
+                                                <div class="h2">10</div>
+                                                <div class="text-muted">Comments</div>
+                                            </div>
+                                        </div><!--/ panel -->
+                                    </div><!-- /.col -->
+                                </div><!-- /.row -->
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="panel panel-default">
+                                            <form class="form-horizontal form-border">
+                                                <div class="panel-heading">
+                                                    Add Blog Details
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">About</label>
+                                                        <div class="col-md-10">
+                                                            <textarea class="form-control" rows="2"></textarea>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="panel-footer">
+                                                        <div class="text-right">
+                                                            <button class="btn btn-sm btn-success">Update</button>
+                                                            <button class="btn btn-sm btn-success" type="reset">Reset</button>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /panel -->
+                                            </form>
+                                        </div><!-- /panel -->
+                                    </div><!-- /col -->
+                                    <div class="col-md-8">
+                                        <div class="panel panel-default table-responsive">
+                                            <div class="panel-heading">
+                                                About Blog
+                                            </div>
+                                            <div class="panel-body">
+                                                <p>App Creator has a blog which is the playground for all creators to share their thinking with others.</p>
+                                                </div>
+                                        </div><!-- /panel -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="panel panel-default">
+                                            <form class="form-horizontal form-border">
+                                                <div class="panel-heading">
+                                                    Add Category
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Name</label>
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control input-sm" placeholder="Category Name EX. Restaurant" value="">
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Details</label>
+                                                        <div class="col-md-10">
+                                                            <textarea class="form-control" rows="3"></textarea>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Status</label>
+                                                        <div class="col-md-10">
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio" checked>
+                                                                <span class="custom-radio"></span>
+                                                                Published
+                                                            </label>
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio">
+                                                                <span class="custom-radio"></span>
+                                                                Unpublished
+                                                            </label>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <div class="text-right">
+                                                        <button class="btn btn-sm btn-success">Add</button>
+                                                        <button class="btn btn-sm btn-success" type="reset">Clear</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div><!-- /panel -->
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="panel panel-default table-responsive">
+                                            <div class="panel-heading">
+                                                All Category
+                                                <span class="label label-danger pull-right">3 Category</span>
+                                            </div>
+                                            <table class="table table-striped" id="dataTable_allcategory">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">Name</th>
+                                                        <th class="text-center">Status</th>
+                                                        <th class="text-center" style="width: 200px">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Features
+                                                        </td>
+
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Pricing
+                                                        </td>
+
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            social Media
+                                                        </td>
+
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Reseller
+                                                        </td>
+
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            Ideas
+                                                        </td>
+
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!-- /panel -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /tab2 -->
+
+                            <div class="tab-pane fade" id="editblog">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="panel panel-default">
+                                            <form class="form-horizontal form-border">
+                                                <div class="panel-heading">
+                                                    Add Blog
+                                                </div>
+                                                <div class="panel-body">
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Name</label>												
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control input-sm" placeholder="Blog Name" value="">
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Author</label>												
+                                                        <div class="col-md-10">
+                                                            <input type="text" class="form-control input-sm" placeholder="Author Name" value="Jhon Doe" disabled="">
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Short Details</label>
+                                                        <div class="col-md-10">
+                                                            <textarea class="form-control" rows="2"></textarea>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Long Details</label>
+                                                        <div class="col-md-10">
+                                                            <textarea class="form-control" rows="8"></textarea>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2 control-label">Category</label>
+                                                        <div class="col-lg-10">
+                                                            <select class="form-control chzn-select">
+                                                                <option>Restaurant</option>
+                                                                <option>Education</option>
+                                                                <option>Ecommerce</option>
+                                                            </select>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-lg-2">Image</label>
+                                                        <div class="col-lg-10">
+                                                            <div class="upload-file">
+                                                                <input type="file" id="upload-demo" class="upload-demo">
+                                                                <label data-title="Select file" for="upload-demo">
+                                                                    <span data-title="No file selected..."></span>
+                                                                </label>
+                                                            </div>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                    <div class="form-group">
+                                                        <label class="control-label col-md-2">Status</label>
+                                                        <div class="col-md-10">
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio" checked>
+                                                                <span class="custom-radio"></span>
+                                                                Published
+                                                            </label>
+                                                            <label class="label-radio inline">
+                                                                <input type="radio" name="inline-radio">
+                                                                <span class="custom-radio"></span>
+                                                                Unpublished
+                                                            </label>
+                                                        </div><!-- /.col -->
+                                                    </div><!-- /form-group -->
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <div class="text-right">
+                                                        <button class="btn btn-sm btn-success">Update</button>
+                                                        <button class="btn btn-sm btn-success" type="reset">Reset</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div><!-- /panel -->
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="panel panel-default table-responsive">
+                                            <div class="panel-heading">
+                                                All Blogs
+                                                <span class="label label-danger pull-right">3 Items</span>
+                                            </div>
+                                            <table class="table table-striped" id="dataTable">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">Image</th>
+                                                        <th class="text-center">Name</th>
+                                                        <th class="text-center">Category</th>
+                                                        <th class="text-center">Author</th>
+                                                        <th class="text-center">Date</th>
+                                                        <th class="text-center">Comments</th>
+                                                        <th class="text-center">Status</th>
+                                                        <th class="text-center" style="width: 200px;">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/blog1.png" width="80" height="80">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Does Your Mobile App Even Stand a Chance
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Ideas
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Jhon Doe
+                                                        </td>
+                                                        <td class="text-center">
+                                                            15/8/2014
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#comments" role="button" data-toggle="modal" class="btn btn-sm btn-info"  style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Comments</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/blog2.png" width="80" height="80">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            20 Content Ideas for When You Make a Mobile App
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Ideas
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Jhon Doe
+                                                        </td>
+                                                        <td class="text-center">
+                                                            10/10/2014
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#comments" role="button" data-toggle="modal" class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Comments</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/blog3.jpg" width="80" height="80">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Marketing Tactics for Your Mobile App
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Ideas
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Jhon Doe
+                                                        </td>
+                                                        <td class="text-center">
+                                                            10/10/2014
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#comments" role="button" data-toggle="modal" class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Comments</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/blog4.jpg" width="80" height="80">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Making a Mobile App That Empowers Your Brand
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Ideas
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Jhon Doe
+                                                        </td>
+                                                        <td class="text-center">
+                                                            10/10/2014
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#comments" role="button" data-toggle="modal" class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Comments</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/blog5.jpg" width="80" height="80">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            What Kind of Mobile App is Right for You
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Ideas
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Jhon Doe
+                                                        </td>
+                                                        <td class="text-center">
+                                                            10/10/2014
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#comments" role="button" data-toggle="modal" class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Comments</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/blog6.png" width="80" height="80">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            6 Ways to Promote Your Mobile App on Facebook
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Ideas
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Jhon Doe
+                                                        </td>
+                                                        <td class="text-center">
+                                                            10/10/2014
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#comments" role="button" data-toggle="modal" class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Comments</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/blog7.png" width="80" height="80">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Why You Need A Mobile App For Your One Time Event
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Ideas
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Jhon Doe
+                                                        </td>
+                                                        <td class="text-center">
+                                                            10/10/2014
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#comments" role="button" data-toggle="modal" class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Comments</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center hidden-xs">
+                                                            <img alt="Product Image" src="img/blog8.png" width="80" height="80">
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Mobile Apps for Sports Teams
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Ideas
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Jhon Doe
+                                                        </td>
+                                                        <td class="text-center">
+                                                            10/10/2014
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="#comments" role="button" data-toggle="modal" class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Comments</a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            Published
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                                            <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                                            <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!-- /panel -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+                            </div><!-- /tab3 -->
+                        </div><!-- /tab-content -->
+                    </div><!-- /.row -->			
+                </div><!-- /.padding-md -->
+            </div><!-- /main-container -->
+
+
+            <!--Modal for single post-->
+            <div class="modal fade" id="singlepost">
+                <div class="modal-dialog" style="width: auto;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4>Does Your Mobile App Even Stand a Chance</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">	
+                                <div class="col-md-8">
+                                    <div class="panel blog-container">
+                                        <div class="panel-body">
+                                            <div class="image-wrapper">
+                                                <a class="image-wrapper image-zoom" href="img/blog1.png">
+                                                    <img src="img/blog1.png" alt="Photo of Blog">
+                                                    <div class="image-overlay"></div>	
+                                                </a>
+                                            </div><!-- /image-wrapper -->
+
+                                            <p class="m-top-sm m-bottom-sm">
+                                                Your mobile app stinks. This is something most people won’t tell you. Your customers won’t tell you, your employees won’t tell you and your friends won’t tell you. It’s up to you to understand the components of a mobile app that make it stand out. Rather, forget standing out. You need to understand the few areas that make your app bomb from the start. 
+                                            </p>
+                                            <blockquote>
+                                                <p>If you can see the parts of an app that make people laugh at you and your company, you can at least remove those features or design flaws and take a step in the right direction. </p>
+                                                <small>John Doe<cite title="Source Title">Mobile app chance</cite></small>
+                                            </blockquote>
+                                            <p class="m-top-sm m-bottom-sm">
+                                                This guide is a way to point out those critical design and functionality errors that no one will stand for. It’s tough to locate these yourself, because, let’s face it, you designed the app and no one has the heart to tell you it stinks.
+                                            </p>
+                                            <p class="m-top-sm m-bottom-sm">
+                                                Let’s take a look at some of the areas in your mobile app that prevent the app from standing a chance in the market. 
+                                            </p>
+                                        </div>
+                                    </div><!-- /panel -->
+                                    <div class="panel">
+                                        <div class="panel-body">
+                                            <div class="share-blog clearfix">
+                                                <span class="pull-left" style="line-height: 25px;">Share this story</span>
+                                                <div class="pull-right">
+                                                    <a href="#" class="social-connect tooltip-test facebook-hover" data-toggle="tooltip" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#" class="social-connect tooltip-test twitter-hover" data-toggle="tooltip" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#" class="social-connect tooltip-test google-plus-hover" data-toggle="tooltip" data-original-title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                                                    <a href="#" class="social-connect tooltip-test rss-hover" data-toggle="tooltip" data-original-title="Rss feed"><i class="fa fa-rss"></i></a>
+                                                    <a href="#" class="social-connect tooltip-test tumblr-hover" data-toggle="tooltip" data-original-title="Tumblr"><i class="fa fa-tumblr"></i></a>
+                                                    <a href="#" class="social-connect tooltip-test dribbble-hover" data-toggle="tooltip" data-original-title="Dribbble"><i class="fa fa-dribbble"></i></a>
+                                                    <a href="#" class="social-connect tooltip-test linkedin-hover" data-toggle="tooltip" data-original-title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                                                    <a href="#" class="social-connect tooltip-test pinterest-hover" data-toggle="tooltip" data-original-title="Pinterest"><i class="fa fa-pinterest"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /panel -->
+                                </div><!-- /.col -->
+                                <div class="col-md-4">
+                                    <h4 class="headline">
+                                        About The Author
+                                        <span class="line"></span>
+                                    </h4>
+                                    <div class="panel">
+                                        <div class="panel-body">
+                                            <div class="media">
+                                                <a class="pull-left" href="#">
+                                                    <img src="img/user.jpg" alt="Author" class="img-rounded" style="height:50px; width:50px;">
+                                                </a>
+                                                <div class="media-heading">
+                                                    John Doe<br>
+                                                </div>
+                                                <div class="media-body">
+                                                    I am a mobile apps developer. My passion is to make mobile apps. 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /panel -->
+                                    <h4 class="headline">
+                                        Comments (3)
+                                        <span class="line"></span>
+                                    </h4>
+                                    <ul class="media-list comment-list">
+                                        <li class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object img-circle" src="img/user1.jpg" alt="User Avatar" style="width: 40px; height: 40px;">
+                                            </a>
+                                            <div class="media-body">
+                                                <div class="media-heading">
+                                                    <a href="#">John Doe</a>
+                                                    <small class="text-muted">
+                                                        Oct 10, 2013 at 1:23 pm / <a href="#">Reply</a>
+                                                    </small>
+                                                </div>
+                                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+
+                                                <!-- Nested media object -->
+                                                <div class="media">
+                                                    <a class="pull-left" href="#">
+                                                        <img class="media-object img-circle" src="img/user111.jpg" alt="User Avatar" style="width: 40px; height: 40px;">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <div class="media-heading">
+                                                            <a href="#">Jane Doe</a>
+                                                            <small class="text-muted">
+                                                                Oct 10, 2013 at 1:30 am
+                                                            </small>
+                                                        </div>
+                                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.
+                                                    </div>
+                                                </div>
+                                                <div class="media">
+                                                    <a class="pull-left" href="#">
+                                                        <img class="media-object img-circle" src="img/user1.jpg" alt="User Avatar" style="width: 40px; height: 40px;">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <div class="media-heading">
+                                                            <a href="#">John Doe</a>
+                                                            <small class="text-muted">
+                                                                Oct 10, 2013 at 1:32 am
+                                                            </small>
+                                                        </div>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object img-circle" src="img/user111.jpg" alt="User Avatar" style="width: 40px; height: 40px;">
+                                            </a>
+                                            <div class="media-body">
+                                                <div class="media-heading">
+                                                    <a href="#">Jane Doe</a>
+                                                    <small class="text-muted">
+                                                        Oct 11, 2013 at 9:06 pm / <a href="#">Reply</a>
+                                                    </small>
+                                                </div>
+                                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.
+                                            </div>
+                                        </li>
+                                        <li class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object img-circle" src="img/user1.jpg" alt="User Avatar" style="width: 40px; height: 40px;">
+                                            </a>
+                                            <div class="media-body">
+                                                <div class="media-heading">
+                                                    <a href="#">John Doe</a>
+                                                    <small class="text-muted">
+                                                        Oct 13, 2013 at 7:51 am / <a href="#">Reply</a>
+                                                    </small>
+                                                </div>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                            </div>
+                                        </li>
+                                    </ul><!-- /media-list -->					
+                                    <h4 class="headline">
+                                        Add Comment
+                                        <span class="line"></span>
+                                    </h4>
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label>Name</label>												
+                                                    <input type="text" class="form-control input-sm" placeholder="Name">
+                                                </div><!-- /form-group -->
+                                            </div><!-- /.col -->
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label>Website</label>
+                                                    <input type="text" class="form-control input-sm" placeholder="Website Url">
+                                                </div><!-- /form-group -->
+                                            </div><!-- /.col -->
+                                        </div><!-- /.row -->
+                                        <textarea class="form-control" rows="10"></textarea>
+                                        <div class="seperator"></div>
+                                        <div class="text-right m-bottom-md">
+                                            <button class="btn btn-success">Post Comment</button>
+                                        </div>
+                                    </form>
+                                </div><!-- /.col -->
+                            </div><!-- /.row -->
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-sm btn-success" data-dismiss="modal" aria-hidden="true">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+            <!--Modal for comments-->
+            <div class="modal fade" id="comments">
+                <div class="modal-dialog" style="width: auto; text-align: center;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4>Comments</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="panel panel-default">
+                                        <form class="form-horizontal form-border">
+                                            <div class="panel-heading">
+                                                Add Comment
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-2">Name</label>												
+                                                    <div class="col-md-10">
+                                                        <input type="text" class="form-control input-sm" placeholder="commentors Name" value="Jhon Doe" disabled="">
+                                                    </div><!-- /.col -->
+                                                </div><!-- /form-group -->
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-2">Comment</label>
+                                                    <div class="col-md-10">
+                                                        <textarea class="form-control" rows="2"></textarea>
+                                                    </div><!-- /.col -->
+                                                </div><!-- /form-group -->
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-2">Status</label>
+                                                    <div class="col-md-10">
+                                                        <label class="label-radio inline">
+                                                            <input type="radio" name="inline-radio" checked>
+                                                            <span class="custom-radio"></span>
+                                                            Published
+                                                        </label>
+                                                        <label class="label-radio inline">
+                                                            <input type="radio" name="inline-radio">
+                                                            <span class="custom-radio"></span>
+                                                            Unpublished
+                                                        </label>
+                                                    </div><!-- /.col -->
+                                                </div><!-- /form-group -->
+                                            </div>
+                                            <div class="panel-footer">
+                                                <div class="text-right">
+                                                    <button class="btn btn-sm btn-success">Update</button>
+                                                    <button class="btn btn-sm btn-success" type="reset">Reset</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div><!-- /panel -->
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="panel panel-default table-responsive">
+                                        <div class="panel-heading">
+                                            All Comments 
+                                            <span class="label label-danger pull-right">3 Items</span>
+                                        </div>
+                                        <table class="table table-bordered table-condensed table-hover table-striped table-vertical-center">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center">Commenter</th>
+                                                    <th class="text-center">comments</th>
+                                                    <th class="text-center">Status</th>
+                                                    <th class="text-center">Actions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-center">
+                                                        Someone
+                                                    </td>
+                                                    <td class="text-center">
+                                                        It is a nice blog
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Published
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="btn btn-sm btn-danger">Delete</a>
+                                                        <a class="btn btn-sm btn-success">Unpublish</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center">
+                                                        Someone
+                                                    </td>
+                                                    <td class="text-center">
+                                                        It is a nice blog
+                                                    </td>
+                                                    <td class="text-center">
+                                                        Published
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <a class="btn btn-sm btn-danger">Delete</a>
+                                                        <a class="btn btn-sm btn-success">Unpublish</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div><!-- /panel -->
+                                </div><!-- /col -->
+                            </div><!-- /row -->
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-sm btn-success" data-dismiss="modal" aria-hidden="true">Close</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+        </div><!-- /wrapper -->
+
+        <a href="" id="scroll-to-top" class="hidden-print"><i class="fa fa-chevron-up"></i></a>
+
+        <!-- Logout confirmation -->
+        <div class="custom-popup width-100" id="logoutConfirm">
+            <div class="padding-md">
+                <h4 class="m-top-none"> Do you want to logout?</h4>
+            </div>
+
+            <div class="text-center">
+                <a class="btn btn-success m-right-sm" href="login.html">Logout</a>
+                <a class="btn btn-danger logoutConfirm_close">Cancel</a>
+            </div>
+        </div>
+
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+
+        <!-- Jquery -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- holder -->
+        <script src='js/uncompressed/holder.js'></script>
+
+        <!-- Modernizr -->
+        <script src='js/modernizr.min.js'></script>
+
+        <!-- Pace -->
+        <script src='js/pace.min.js'></script>
+
+        <!-- Popup Overlay -->
+        <script src='js/jquery.popupoverlay.min.js'></script>
+
+        <!-- Slimscroll -->
+        <script src='js/jquery.slimscroll.min.js'></script>
+
+        <!-- Cookie -->
+        <script src='js/jquery.cookie.min.js'></script>
+
+        <!-- Endless -->
+        <script src="js/endless/endless.js"></script>
+
+
+        <!-- Datatable -->
+        <script src='js/jquery.dataTables.min.js'></script>	
+
+        <script>
+            $(function() {
+                $('#dataTable').dataTable({
+                    "bJQueryUI": true,
+                    "sPaginationType": "full_numbers"
+                });
+
+                $('#chk-all').click(function() {
+                    if ($(this).is(':checked')) {
+                        $('#responsiveTable').find('.chk-row').each(function() {
+                            $(this).prop('checked', true);
+                            $(this).parent().parent().parent().addClass('selected');
+                        });
+                    }
+                    else {
+                        $('#responsiveTable').find('.chk-row').each(function() {
+                            $(this).prop('checked', false);
+                            $(this).parent().parent().parent().removeClass('selected');
+                        });
+                    }
+                });
+            });
+        </script>
+
+    </body>
+</html>
