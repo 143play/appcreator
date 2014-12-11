@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php include 'v_create_app_header.php'?>
 <form >
     <!-----Category selection starts here---->

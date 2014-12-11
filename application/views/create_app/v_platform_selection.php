@@ -29,7 +29,7 @@
     <!----Footer starts here---------->
 </div>
 <div class="panel-footer">
-    <button class="btn btn-success btn-sm disabled" id="prevStep" disabled>Previous</button>
+    <a href="<?=base_url()?>create_app/categorySelection" class="btn btn-success btn-sm enabled" id="prevStep" enabled>Previous</a>
     <button type="submit" class="btn btn-sm btn-success" id="nextStep">Next</button>
 
     <div class="pull-right" style="width:30%">

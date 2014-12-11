@@ -30,6 +30,8 @@
 
 <!-- Endless -->
 <script src="<?=base_url()?>public/js/endless/endless.js"></script>
+<!---Dropzone--->
+<script src="<?=base_url()?>public/js/dropzone.min.js"></script>
 
 <script>
     var jq1102 = jQuery.noConflict(true);
@@ -92,8 +94,6 @@
         });
     });
 </script>
-
-
 
 <!-- Colorbox -->
 <script src='<?=base_url()?>public/js/jquery.colorbox.min.js'></script>

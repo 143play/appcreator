@@ -179,10 +179,21 @@
                     </div><!-- /.col -->
                 </div><!-- /form-group -->
                 <div class="form-group">
-                    <label class="control-label col-lg-2">Image</label>
+                    <label class="control-label col-lg-2">Back</label>
                     <div class="col-lg-10">
                         <div class="">
                             <input name="image" type="file" id="upload-demo" class="upload-demo">
+                            <label data-title="Select file" for="upload-demo">
+                                <span data-title="No file selected..."></span>
+                            </label>
+                        </div>
+                    </div><!-- /.col -->
+                </div><!-- /form-group -->
+                <div class="form-group">
+                    <label class="control-label col-lg-2">Logo</label>
+                    <div class="col-lg-10">
+                        <div class="">
+                            <input name="logo" type="file" id="upload-demo" class="upload-demo">
                             <label data-title="Select file" for="upload-demo">
                                 <span data-title="No file selected..."></span>
                             </label>
@@ -533,257 +544,87 @@
 </div><!-- /tab3 -->
 
 <div class="tab-pane fade" id="platform">
-<div class="row">
-    <div class="col-md-4">
-        <div class="panel panel-default">
-            <form class="form-horizontal form-border">
-                <div class="panel-heading">
-                    Add Platform
-                </div>
-                <div class="panel-body">
-                    <div class="form-group">
-                        <label class="control-label col-md-2">Name</label>
-                        <div class="col-md-10">
-                            <input type="text" class="form-control input-sm" placeholder="Platform Name EX. Android" value="">
-                        </div><!-- /.col -->
-                    </div><!-- /form-group -->
-                    <div class="form-group">
-                        <label class="control-label col-md-2">Status</label>
-                        <div class="col-md-10">
-                            <label class="label-radio inline">
-                                <input type="radio" name="inline-radio" checked>
-                                <span class="custom-radio"></span>
-                                Published
-                            </label>
-                            <label class="label-radio inline">
-                                <input type="radio" name="inline-radio">
-                                <span class="custom-radio"></span>
-                                Unpublished
-                            </label>
-                        </div><!-- /.col -->
-                    </div><!-- /form-group -->
-                </div>
-                <div class="panel-footer">
-                    <div class="text-right">
-                        <button class="btn btn-sm btn-success">Add</button>
-                        <button class="btn btn-sm btn-success" type="reset">Clear</button>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <form action="<?=base_url()?>creator/addPlatform" method="post" class="form-horizontal form-border">
+                    <div class="panel-heading">
+                        Add Platform
                     </div>
-                </div>
-            </form>
-        </div><!-- /panel -->
-    </div>
-    <div class="col-md-8">
-        <div class="panel panel-default table-responsive">
-            <div class="panel-heading">
-                All Platform
-                <span class="label label-danger pull-right">3 Platform</span>
-            </div>
-            <table class="table table-striped" id="dataTable_allplatform">
-                <thead>
-                <tr>
-                    <th class="text-center">Name</th>
-                    <th class="text-center">Status</th>
-                    <th class="text-center" style="width: 200px">Actions</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td class="text-center">
-                        Android
-                    </td>
-
-                    <td class="text-center">
-                        Published
-                    </td>
-                    <td class="text-center">
-                        <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
-                        <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
-                        <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-center">
-                        iPhone
-                    </td>
-
-                    <td class="text-center">
-                        Published
-                    </td>
-                    <td class="text-center">
-                        <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
-                        <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
-                        <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-center">
-                        windows
-                    </td>
-
-                    <td class="text-center">
-                        Published
-                    </td>
-                    <td class="text-center">
-                        <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
-                        <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
-                        <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div><!-- /panel -->
-    </div><!-- /col -->
-</div><!-- /row1 -->
-
-<div class="seperator"></div><div class="seperator"></div>
-<div class="seperator"></div><div class="seperator"></div>
-
-<div class="row">
-    <div class="col-md-4">
-        <div class="panel panel-default">
-            <form class="form-horizontal form-border">
-                <div class="panel-heading">
-                    Add Category Based Platform
-                </div>
-                <div class="panel-body">
-                    <div class="form-group">
-                        <label class="col-lg-2 control-label">Category</label>
-                        <div class="col-lg-10">
-                            <select class="form-control chzn-select">
-                                <option>Restaurant</option>
-                                <option>Education</option>
-                                <option>Ecommerce</option>
-                            </select>
-                        </div><!-- /.col -->
-                    </div><!-- /form-group -->
-                    <div class="form-group">
-                        <label class="col-lg-2 control-label">Platform</label>
-                        <div class="col-lg-10">
-                            <select class="form-control chzn-select">
-                                <option>Android</option>
-                                <option>iPhone</option>
-                                <option>Windows</option>
-                            </select>
-                        </div><!-- /.col -->
-                    </div><!-- /form-group -->
-                    <div class="form-group">
-                        <label class="control-label col-lg-2">Image</label>
-                        <div class="col-lg-10">
-                            <div class="upload-file">
-                                <input type="file" id="upload-demo" class="upload-demo">
-                                <label data-title="Select file" for="upload-demo">
-                                    <span data-title="Single file selection..."></span>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label class="control-label col-md-2">Name</label>
+                            <div class="col-md-10">
+                                <input name="name" type="text" class="form-control input-sm" placeholder="Platform Name EX. Android" value="">
+                            </div><!-- /.col -->
+                        </div><!-- /form-group -->
+                        <div class="form-group">
+                            <label class="control-label col-md-2">Status</label>
+                            <div class="col-md-10">
+                                <label class="label-radio inline">
+                                    <input type="radio" name="status" value="1" checked>
+                                    <span class="custom-radio"></span>
+                                    Published
                                 </label>
-                            </div>
-                        </div><!-- /.col -->
-                    </div><!-- /form-group -->
-                    <div class="form-group">
-                        <label class="control-label col-md-2">Status</label>
-                        <div class="col-md-10">
-                            <label class="label-radio inline">
-                                <input type="radio" name="inline-radio" checked>
-                                <span class="custom-radio"></span>
-                                Published
-                            </label>
-                            <label class="label-radio inline">
-                                <input type="radio" name="inline-radio">
-                                <span class="custom-radio"></span>
-                                Unpublished
-                            </label>
-                        </div><!-- /.col -->
-                    </div><!-- /form-group -->
-                </div>
-                <div class="panel-footer">
-                    <div class="text-right">
-                        <button class="btn btn-sm btn-success">Add</button>
-                        <button class="btn btn-sm btn-success" type="reset">Clear</button>
+                                <label class="label-radio inline" value="0">
+                                    <input type="radio" name="inline-radio">
+                                    <span class="status"></span>
+                                    Unpublished
+                                </label>
+                            </div><!-- /.col -->
+                        </div><!-- /form-group -->
                     </div>
+                    <div class="panel-footer">
+                        <div class="text-right">
+                            <button class="btn btn-sm btn-success">Add</button>
+                            <button class="btn btn-sm btn-success" type="reset">Clear</button>
+                        </div>
+                    </div>
+                </form>
+            </div><!-- /panel -->
+        </div>
+        <div class="col-md-8">
+            <div class="panel panel-default table-responsive">
+                <div class="panel-heading">
+                    All Platform
+                    <span class="label label-danger pull-right">3 Platform</span>
                 </div>
-            </form>
-        </div><!-- /panel -->
-    </div>
-    <div class="col-md-8">
-        <div class="panel panel-default table-responsive">
-            <div class="panel-heading">
-                All Category Based Platform
-                <span class="label label-danger pull-right">3 Platform</span>
-            </div>
-            <table class="table table-striped" id="dataTable_cbp">
-                <thead>
-                <tr>
-                    <th class="text-center">Image</th>
-                    <th class="text-center">Category</th>
-                    <th class="text-center">Platform</th>
-                    <th class="text-center">Status</th>
-                    <th class="text-center" style="width: 200px">Actions</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td class="text-center hidden-xs">
-                        <img alt="Product Image" src="img/android1.png" width="80" height="120">
-                    </td>
-                    <td class="text-center">
-                        Restaurant
-                    </td>
-                    <td class="text-center">
-                        Android
-                    </td>
-                    <td class="text-center">
-                        Published
-                    </td>
-                    <td class="text-center">
-                        <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
-                        <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
-                        <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-center hidden-xs">
-                        <img alt="Product Image" src="img/iphone1.png" width="80" height="120">
-                    </td>
-                    <td class="text-center">
-                        Restaurant
-                    </td>
-                    <td class="text-center">
-                        iPhone
-                    </td>
-                    <td class="text-center">
-                        Published
-                    </td>
-                    <td class="text-center">
-                        <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
-                        <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
-                        <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-center hidden-xs">
-                        <img alt="Product Image" src="img/windows-phone2.png" width="80" height="120">
-                    </td>
-                    <td class="text-center">
-                        Restaurant
-                    </td>
-                    <td class="text-center">
-                        windows
-                    </td>
-                    <td class="text-center">
+                <table class="table table-striped" id="dataTable_allplatform">
+                    <thead>
+                    <tr>
+                        <th class="text-center">Name</th>
+                        <th class="text-center">Status</th>
+                        <th class="text-center" style="width: 200px">Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                    foreach($platforms as $platform)
+                    {?>
+                        <tr>
+                            <td class="text-center">
+                                <?=$platform->platformName?>
+                            </td>
+
+                            <td class="text-center">
+                                <?php
+                                if($platform->publicationStatus == 1) echo "Published";
+                                else echo "Unpublished";
+                                ?>
+                            </td>
+                            <td class="text-center">
+                                <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
+                                <a href="<?=base_url()?>creator/deletePlatform/<?=$platform->id?>" class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
+                                <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
+                            </td>
+                        </tr>
                         <?php
-                        if($app->status == 1) echo "Published";
-                        else echo "Unpublished";
-                        ?>
-                    </td>
-                    <td class="text-center">
-                        <a class="btn btn-sm btn-info" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Edit</a>
-                        <a class="btn btn-sm btn-danger" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Delete</a>
-                        <a class="btn btn-sm btn-success" style="padding: 2px 5px; border-radius: 0px; margin: 2px;">Unpublish</a>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div><!-- /panel -->
-    </div><!-- /col -->
-</div><!-- /row 2-->
+                    }?>
+                    </tbody>
+                </table>
+            </div><!-- /panel -->
+        </div><!-- /col -->
+    </div><!-- /row1 -->
 </div><!-- /tab4 -->
 
 <div class="tab-pane fade" id="template">

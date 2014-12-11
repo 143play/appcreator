@@ -34,22 +34,30 @@ class Creator extends My_Controller
             $config['allowed_types'] = 'gif|jpg|png';
             $config['max_size']	= '1000';
             $imagePath = "";
+            $logoPath = "";
 
             $this->load->library('upload', $config);
-
+            //Upload background image
             if( !$this->upload->do_upload('image'))
             {
                 $error = $this->upload->display_errors();
-                var_dump($error);
-                //echo "file was not uploaded";
-                //$this->load->view('upload_form', $error);
+                //var_dump($error);
             }
             else
             {
                 $data = $this->upload->data();
                 $imagePath = "public/img/".$data['file_name'];
-                //echo $data['file_name'];
-                //echo $data['file_path'];
+            }
+            //Upload logo
+            if( !$this->upload->do_upload('logo'))
+            {
+                $error = $this->upload->display_errors();
+                //var_dump($error);
+            }
+            else
+            {
+                $data = $this->upload->data();
+                $logoPath = "public/img/".$data['file_name'];
             }
 
             $newApp = array(
@@ -58,6 +66,7 @@ class Creator extends My_Controller
                 "categoryId" => $this->input->post("category"),
                 "templateId" => $this->input->post("template"),
                 "background_image" => $imagePath,
+                "appLogo" => $logoPath,
                 "price" => $this->input->post("price"),
                 "status" => $this->input->post("status"),
             );
@@ -277,6 +286,43 @@ class Creator extends My_Controller
         if(!$this->session->userdata("user_id")){redirect(base_url());}
 
         $this->m_common->delete("template",$templateId);
+        redirect(base_url().'creator');
+    }
+
+    function addPlatform()
+    {
+        //When user is not logged in send him to login page
+        if(!$this->session->userdata("user_id")){redirect(base_url());}
+
+        if($this->input->post())
+        {
+            $newPlatform = array(
+                "platformName" => $this->input->post("name"),
+                "publicationStatus" => $this->input->post("status"),
+            );
+
+            if($this->m_creator->addNew($newPlatform, "platform"))
+            {
+                $data['successMessage'] = "The Apps has been added successfully!";
+            }
+            $data['user'] = $this->m_common->getGlobalUserInfo($this->session->userdata("user_id"));
+            $data['apps'] = $this->m_creator->getAllApps();
+            $data['users'] = $this->m_common->getAllRow('user');
+            $data['platforms'] = $this->m_common->getAllRow('platform');
+            $data['categories'] = $this->m_common->getAllRow('category');
+            $data['templates'] = $this->m_creator->getAllTemplates();
+            $this->load->view("v_creator",$data);
+        }
+        else{
+            redirect(base_url().'creator');
+        }
+    }
+    function deletePlatform($platformId)
+    {
+        //When user is not logged in send him to login page
+        if(!$this->session->userdata("user_id")){redirect(base_url());}
+
+        $this->m_common->delete("platform",$platformId);
         redirect(base_url().'creator');
     }
 }

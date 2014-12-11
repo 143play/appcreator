@@ -6,7 +6,6 @@
             <h5>Category selection</h5>
         </div><br/><br/>
         <div class="panel-body no-padding">
-
             <div class="row">
                 <?php
                 foreach($categories as $category)

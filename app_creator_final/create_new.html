@@ -396,7 +396,7 @@
                                         <div class="row">
                                             <div class="col-md-2 text-center">
                                                 <label class="label-checkbox inline">
-                                                    <input type="checkbox">
+                                                    <input type="checkbox" id="Category1" class="Restaurant" value="Restaurant">
                                                     <span class="custom-checkbox"></span>
                                                     Restaurant
                                                 </label>
@@ -419,7 +419,7 @@
                                             </div><!-- /.col -->
                                             <div class="col-md-2 text-center">
                                                 <label class="label-checkbox inline">
-                                                    <input type="checkbox">
+                                                    <input type="checkbox" id="Category2" class="Education" value="Education">
                                                     <span class="custom-checkbox"></span>
                                                     Education
                                                 </label>
@@ -442,7 +442,7 @@
                                             </div><!-- /.col -->
                                             <div class="col-md-2 text-center">
                                                 <label class="label-checkbox inline">
-                                                    <input type="checkbox">
+                                                    <input type="checkbox" id="Category3" class="Ecommerce" value="Ecommerce">
                                                     <span class="custom-checkbox"></span>
                                                     Ecommerce
                                                 </label>
@@ -477,7 +477,7 @@
                                             <div class="row">
                                                 <div class="col-md-2 text-center">
                                                     <label class="label-checkbox inline">
-                                                        <input type="checkbox">
+                                                        <input type="checkbox" id="Platform1" class="Andriod" value="Andriod">
                                                         <span class="custom-checkbox"></span>
                                                         Andriod
                                                     </label>
@@ -487,7 +487,7 @@
                                                 </div><!-- /.col -->
                                                 <div class="col-md-2 text-center">
                                                     <label class="label-checkbox inline">
-                                                        <input type="checkbox">
+                                                        <input type="checkbox" id="Platform2" class="iPhone" value="iPhone">
                                                         <span class="custom-checkbox"></span>
                                                         iPhone
                                                     </label>
@@ -497,7 +497,7 @@
                                                 </div><!-- /.col -->
                                                 <div class="col-md-2 text-center">
                                                     <label class="label-checkbox inline">
-                                                        <input type="checkbox">
+                                                        <input type="checkbox" id="Platform3" class="Windows" value="Windows">
                                                         <span class="custom-checkbox"></span>
                                                         Windows
                                                     </label>
@@ -519,7 +519,7 @@
                                         <div class="row">
                                             <div class="col-md-2 text-center">
                                                 <label class="label-checkbox inline">
-                                                    <input type="checkbox">
+                                                    <input type="checkbox" id="Template1" class="coffee" value="coffee">
                                                     <span class="custom-checkbox"></span>
                                                     coffee Shop
                                                 </label>
@@ -542,7 +542,7 @@
                                             </div><!-- /.col -->
                                             <div class="col-md-2 text-center">
                                                 <label class="label-checkbox inline">
-                                                    <input type="checkbox">
+                                                    <input type="checkbox" id="Template2" class="Fast" value="Fast">
                                                     <span class="custom-checkbox"></span>
                                                     Fast Food
                                                 </label>
@@ -565,7 +565,7 @@
                                             </div><!-- /.col -->
                                             <div class="col-md-2 text-center">
                                                 <label class="label-checkbox inline">
-                                                    <input type="checkbox">
+                                                    <input type="checkbox" id="Template3" class="Sushi" value="Sushi">
                                                     <span class="custom-checkbox"></span>
                                                     Sushi Place
                                                 </label>
@@ -588,7 +588,7 @@
                                             </div><!-- /.col -->
                                             <div class="col-md-2 text-center">
                                                 <label class="label-checkbox inline">
-                                                    <input type="checkbox">
+                                                    <input type="checkbox" id="Template4" class="Ice" value="Ice">
                                                     <span class="custom-checkbox"></span>
                                                     Ice Cream Parlour
                                                 </label>
@@ -657,6 +657,133 @@
                                         <script>
 											<!--  var jq152 = jQuery.noConflict(true); -->
                                             $(document).ready(function(id) {
+											var category = "";
+											var platform = "";
+											var template = "";
+											$('input[type="checkbox"]').live('click', function (e) {
+											
+											var $cb = $(this);
+											if ($("#Category1").is(':checked')) {
+											
+												$('.Ecommerce').attr('checked', false);
+												$('.Education').attr('checked', false);
+												$('.Restaurant').attr('checked', false);
+											
+												category = $cb.val();
+												$('.'+category).attr('checked', true);
+												
+												}
+												if ($("#Category2").is(':checked')) {
+											
+												$('.Ecommerce').attr('checked', false);
+												$('.Education').attr('checked', false);
+												$('.Restaurant').attr('checked', false);
+											
+												category = $cb.val();
+												$('.'+category).attr('checked', true);
+												
+												}
+												if ($("#Category3").is(':checked')) {
+											
+												$('.Ecommerce').attr('checked', false);
+												$('.Education').attr('checked', false);
+												$('.Restaurant').attr('checked', false);
+											
+												category = $cb.val();
+												$('.'+category).attr('checked', true);
+												
+												}
+												
+													localStorage['category'] = "category";
+												
+												
+												if ($("#Platform1").is(':checked')) {
+											
+												$('.Andriod').attr('checked', false);
+												$('.iPhone').attr('checked', false);
+												$('.Windows').attr('checked', false);
+											
+												platform = $cb.val();
+												$('.'+platform).attr('checked', true);
+												
+												}
+												if ($("#Platform2").is(':checked')) {
+											
+												$('.Andriod').attr('checked', false);
+												$('.iPhone').attr('checked', false);
+												$('.Windows').attr('checked', false);
+											
+												platform = $cb.val();
+												$('.'+platform).attr('checked', true);
+												
+												}
+												if ($("#Platform3").is(':checked')) {
+											
+												$('.Andriod').attr('checked', false);
+												$('.iPhone').attr('checked', false);
+												$('.Windows').attr('checked', false);
+											
+												platform = $cb.val();
+												$('.'+platform).attr('checked', true);
+												
+												}
+												localStorage['platform'] = "platform";
+												
+												
+												
+												
+												if ($("#Template1").is(':checked')) {
+											
+												$('.Fast').attr('checked', false);
+												$('.Sushi').attr('checked', false);
+												$('.Ice').attr('checked', false);
+												$('.coffee').attr('checked', false);
+											
+												template = $cb.val();
+												$('.'+template).attr('checked', true);
+												
+												}
+												if ($("#Template2").is(':checked')) {
+											
+												$('.Fast').attr('checked', false);
+												$('.Sushi').attr('checked', false);
+												$('.Ice').attr('checked', false);
+												$('.coffee').attr('checked', false);
+											
+												template = $cb.val();
+												$('.'+template).attr('checked', true);
+												
+												}
+												if ($("#Template3").is(':checked')) {
+											
+												$('.Fast').attr('checked', false);
+												$('.Sushi').attr('checked', false);
+												$('.Ice').attr('checked', false);
+												$('.coffee').attr('checked', false);
+											
+												template = $cb.val();
+												$('.'+template).attr('checked', true);
+												
+												}
+												if ($("#Template4").is(':checked')) {
+											
+												$('.Fast').attr('checked', false);
+												$('.Sushi').attr('checked', false);
+												$('.Ice').attr('checked', false);
+												$('.coffee').attr('checked', false);
+											
+												template = $cb.val();
+												$('.'+template).attr('checked', true);
+												
+												}
+												
+												localStorage['template'] = "template";
+												
+											});
+											
+											
+											
+											
                                                 var count_dropped_hits = 0;
                                                 var data = {
                                                     "images": [
@@ -905,6 +1032,7 @@
 
                                                         $('#prevStep').attr('disabled', false);
                                                         $('#prevStep').removeClass('disabled');
+														
                                                     }
                                                     else if (currentStep == 3) {
 													
